@@ -1,0 +1,1402 @@
+Local Date: 12�� 03 2019 Local Time: 21:02:13
+Build info: Nov 11 2019 19:43:50 r
+
+INFO    21:02:13:236 135252; API call to setChannelProfile 1
+INFO    21:02:13:236 135252; API call to setClientRole 1
+INFO    21:02:13:236 135252; API call to disable video
+INFO    21:02:13:237 135252; API call to enable audio
+INFO    21:02:13:237 135252; API call to join channel 'd961c0bc22e9efe7caa5067cf2a6685d' uid 100546, SDK ver 2.8.2.121 build 2624, device info 'System manufacturer/System Product Name/x64-based PC/Windows 10.0.17134'
+INFO    21:02:13:468  50412; [rp] {"rtc.channel_profile":1}
+INFO    21:02:13:469  50412; [rp] {"rtc.client_role":1}
+INFO    21:02:13:469  50412; set client role to broadcaster
+INFO    21:02:13:469  50412; [rp] {"rtc.video.enabled":false}
+INFO    21:02:13:469  50412; API call to disable video
+INFO    21:02:13:469  50412; [rp] {"che.audio.profile":{"config":0,"scenario":1}}
+INFO    21:02:13:470  50412; Audio Profile is set to: (config = 0, scenario = 1)
+INFO    21:02:13:470  50412; [rp] {"rtc.audio.enabled":true,"che.audio.enable.recording.device":true}
+INFO    21:02:13:470  50412; [rp] {"rtc.video.web_h264_interop_enable":true,"che.video.web_h264_interop_enable":true}
+INFO    21:02:13:470  50412; [rp] {"che.audio.morph.voice_changer":0}
+INFO    21:02:13:470  50412; [rp] {"che.audio.loopback.recording":true}
+INFO    21:02:13:470  50412; doStopLastmileProbeTest
+INFO    21:02:13:470  50412; ***CALL BEGIN: appid:'6a****************************ae' cname:'d961c0bc22e9efe7caa5067cf2a6685d' info:'Electron' sid:'64494859D01B4261B163BD1C27C9F3CB'
+INFO    21:02:13:470  50412; addRef of media engine, ref=1
+INFO    21:02:13:480  50412; [che] create chat engine, ctx:00000000
+INFO    21:02:13:480  50412; [MYDEBUG] large group call false
+INFO    21:02:13:480  50412; ChatEngineParameterHelper::applyMediaEngineMode: 
+INFO    21:02:13:480  50412; applyMediaEngineMode(): Hardware encoding false Hardware decoding false
+INFO    21:02:13:481 136260; Thread with name:AudioAsyncTask started 
+INFO    21:02:13:482  50412; engine git commit version:9899c5e51 and branch:(HEAD
+INFO    21:02:13:497  50412; output: kPlatformDefaultAudio
+INFO    21:02:13:498  50412; [WIN_CORE] +++++++Code block begins for checking CoreAudio properties++++++
+INFO    21:02:13:503  50412; AgoraRTC::AudioDeviceNotificationWindows::AudioDeviceNotificationWindows created
+INFO    21:02:13:508  50412; [WIN_CORE] ===================Render Devices Enumeration===================
+INFO    21:02:13:508  50412; [WIN_CORE] #rendering endpoint devices (counting all): 3
+INFO    21:02:13:508  50412; [WIN_CORE] ++Endpoint  0:
+INFO    21:02:13:508  50412; [WIN_CORE] ID string    : {0.0.0.00000000}.{1518cfc6-a68f-46dd-ad30-1874fdda99cb}
+INFO    21:02:13:508  50412; [WIN_CORE] friendly name: "VG2453 Series (英特尔(R) 显示器音频)"
+INFO    21:02:13:508  50412; [WIN_CORE] state (0x1)  : *ACTIVE*
+INFO    21:02:13:508  50412; [WIN_CORE] ++Endpoint  1:
+INFO    21:02:13:508  50412; [WIN_CORE] ID string    : {0.0.0.00000000}.{798f7c70-adea-4e09-934d-4a191726db61}
+INFO    21:02:13:508  50412; [WIN_CORE] friendly name: "扬声器 (Realtek High Definition Audio)"
+INFO    21:02:13:508  50412; [WIN_CORE] state (0x1)  : *ACTIVE*
+INFO    21:02:13:508  50412; [WIN_CORE] ++Endpoint  2:
+INFO    21:02:13:508  50412; [WIN_CORE] ID string    : {0.0.0.00000000}.{f9dce68b-6638-4a42-ba3c-e2b8aaf56d05}
+INFO    21:02:13:508  50412; [WIN_CORE] friendly name: "Realtek Digital Output (Realtek High Definition Audio)"
+INFO    21:02:13:508  50412; [WIN_CORE] state (0x1)  : *ACTIVE*
+INFO    21:02:13:508  50412; [WIN_CORE] =========================EnumDeviceEnd==========================
+INFO    21:02:13:509  50412; [WIN_CORE] ==================Capture Devices Enumeration===================
+INFO    21:02:13:509  50412; [WIN_CORE] #capturing endpoint devices (counting all): 3
+INFO    21:02:13:509  50412; [WIN_CORE] ++Endpoint  0:
+INFO    21:02:13:509  50412; [WIN_CORE] ID string    : {0.0.1.00000000}.{033bd0fb-2dba-42fd-94fc-4cdc10f6c1d2}
+INFO    21:02:13:509  50412; [WIN_CORE] friendly name: "线路输入 (Realtek High Definition Audio)"
+INFO    21:02:13:509  50412; [WIN_CORE] state (0x8)  : UNPLUGGED
+INFO    21:02:13:509  50412; [WIN_CORE] ++Endpoint  1:
+INFO    21:02:13:509  50412; [WIN_CORE] ID string    : {0.0.1.00000000}.{3eee6b8c-4f00-438a-96e5-4db32dce00f7}
+INFO    21:02:13:510  50412; [WIN_CORE] friendly name: "立体声混音 (Realtek High Definition Audio)"
+INFO    21:02:13:510  50412; [WIN_CORE] state (0x2)  : DISABLED
+INFO    21:02:13:510  50412; [WIN_CORE] ++Endpoint  2:
+INFO    21:02:13:510  50412; [WIN_CORE] ID string    : {0.0.1.00000000}.{61f26d7b-6f33-4fa9-8e2c-ad56bd03d5a8}
+INFO    21:02:13:510  50412; [WIN_CORE] friendly name: "麦克风 (Realtek High Definition Audio)"
+INFO    21:02:13:510  50412; [WIN_CORE] state (0x1)  : *ACTIVE*
+INFO    21:02:13:510  50412; [WIN_CORE] =========================EnumDeviceEnd==========================
+INFO    21:02:13:512  50412; [WIN_CORE] *** Windows Core Audio is supported ***
+INFO    21:02:13:512  50412; [WIN_CORE] ++++++++Code block ends for checking CoreAudio properties++++++++
+INFO    21:02:13:517  50412; audio jitterbuffer new smooth
+INFO    21:02:13:520  50412;   OS info: Microsoft  (build 17134), 64-bit
+INFO    21:02:13:522  50412; [WIN_CORE] Set playout device on Windows by Windows Device Type (-2): friendly name: "扬声器 (Realtek High Definition Audio)"
+INFO    21:02:13:537  50412; [WIN_CORE] Set recording device on Windows by Windows Device Type (-2): friendly name: "麦克风 (Realtek High Definition Audio)"
+INFO    21:02:13:540  50412; StereoPlayoutIsAvailable(), output: available=1
+INFO    21:02:13:540  50412; StereoRecordingIsAvailable(), output: available=1
+INFO    21:02:13:540  50412; RegisterReceiveCodec 13.
+INFO    21:02:13:540  50412; RegisterReceiveCodec 98.
+INFO    21:02:13:540  50412; RegisterReceiveCodec 99.
+INFO    21:02:13:540  50412; RegisterReceiveCodec 100.
+INFO    21:02:13:540  50412; RegisterReceiveCodec 127.
+INFO    21:02:13:540 136556; Thread with name:EngineMonitorThread started 
+INFO    21:02:13:540  50412; RegisterVolumeNotify
+INFO    21:02:13:540  50412; setMuteStatus, muted: Off
+INFO    21:02:13:540  50412; setMuteOutput, muted: false
+INFO    21:02:13:540  50412; Audio Engine Init success
+INFO    21:02:13:540  50412; [che] chat engine initialized
+INFO    21:02:13:541  50412; [time] process EngineInitialize takes 69
+INFO    21:02:13:545  50412; [tactics] version:2.8.2.121 maxBitrate:400 640X360 15 fps needHandle:1
+INFO    21:02:13:545  50412; [tactics] config json version:20150101-0000 duallinkd:true poor:u
+INFO    21:02:13:545  50412; [tactics] parse config for beckon error for tactics size:15
+INFO    21:02:13:557  50412; [vocs] vocs initialized
+ERROR   21:02:13:559  50412; [cm] session 'D1C441C4CF4645778F3DF0F4D4DBA5D3' was not terminated properly
+INFO    21:02:13:559  50412; CacheManager: save cache to storage elapsed 0
+INFO    21:02:13:559  50412; [cm] emit join channel signal, size=4
+INFO    21:02:13:559  50412; [cm] connection state changed from 1 to 2
+INFO    21:02:13:559  50412; [tactics] version:2.8.2.121 maxBitrate:400 640X360 15 fps needHandle:1
+INFO    21:02:13:560  50412; [vocs] lookup channel...
+INFO    21:02:13:560  50412; [vocs] selected: 52.194.158.59:8000
+INFO    21:02:13:560  50412; connecting to 52.194.158.59:8000 handle 1a2414e0, 2284
+INFO    21:02:13:560  50412; [vocs] report bitrate: a/v/t: 50/400/450
+INFO    21:02:13:560  50412; [vocs] creating channel with 52.194.158.59:8000, ts 1575378133561.......
+INFO    21:02:13:560  50412; [vocs] selected: 106.14.12.130:1080
+INFO    21:02:13:560  50412; [vocs] report bitrate: a/v/t: 50/400/450
+INFO    21:02:13:560  50412; [vocs] creating channel with 106.14.12.130:1080, ts 1575378133561.......
+INFO    21:02:13:560  50412; [vocs] selected: 47.244.4.122:25000
+INFO    21:02:13:560  50412; [vocs] report bitrate: a/v/t: 50/400/450
+INFO    21:02:13:560  50412; [vocs] creating channel with 47.244.4.122:25000, ts 1575378133561.......
+INFO    21:02:13:560  50412; [rp] {"rtc.channel_profile":1}
+INFO    21:02:13:560  50412; [rp] {"rtc.client_role":1}
+INFO    21:02:13:560  50412; [rp] {"rtc.video.enabled":false}
+INFO    21:02:13:560  50412; API call to disable video
+INFO    21:02:13:561  50412; [rp] {"che.audio.profile":{"config":0,"scenario":1}}
+INFO    21:02:13:561  50412; Audio Profile is set to: (config = 0, scenario = 1)
+INFO    21:02:13:561  50412; [rp] {"rtc.audio.enabled":true,"che.audio.enable.recording.device":true}
+INFO    21:02:13:561  50412; [rp] {"rtc.video.web_h264_interop_enable":true,"che.video.web_h264_interop_enable":true}
+INFO    21:02:13:561  50412; [rp] {"che.audio.morph.voice_changer":0}
+INFO    21:02:13:561  50412; [rp] {"che.audio.loopback.recording":true}
+INFO    21:02:13:562  50412; [WIN_CORE] Audio Engine's current mix format for loopback shared-mode streams:
+INFO    21:02:13:562  50412; [WIN_CORE] wFormatTag     : 0xFFFE (65534)
+INFO    21:02:13:562  50412; [WIN_CORE] nChannels      : 2
+INFO    21:02:13:562  50412; [WIN_CORE] nSamplesPerSec : 48000
+INFO    21:02:13:562  50412; [WIN_CORE] wBitsPerSample : 32
+INFO    21:02:13:569  50412; [WIN_CORE] IsFormatSupported : nChannels=2, nSamplesPerSec=48000 is supported
+INFO    21:02:13:569  50412; [WIN_CORE] VoE selected this loopback format:
+INFO    21:02:13:569  50412; [WIN_CORE] wFormatTag        : 0x1 (1)
+INFO    21:02:13:569  50412; [WIN_CORE] nChannels         : 2
+INFO    21:02:13:569  50412; [WIN_CORE] nSamplesPerSec    : 48000
+INFO    21:02:13:569  50412; [WIN_CORE] wBitsPerSample    : 16
+INFO    21:02:13:577  50412; [WIN_CORE] loopback Initialize time 0  hr 0
+INFO    21:02:13:577  50412; [WIN_CORE] IAudioClient::GetBufferSize() => 1056 (<=> 4224 bytes)
+INFO    21:02:13:577  50412; [WIN_CORE] loopback capture side is now initialized
+WARN    21:02:13:583 136504; [WIN_CORE] Loopback failed to boost rec-thread using MMCSS
+INFO    21:02:13:583 136504; [WIN_CORE] loopback [CAPT] size of buffer       : 1056
+INFO    21:02:13:583 136504; [WIN_CORE] loopback [CAPT] size of sync buffer  : 8448 [bytes]
+INFO    21:02:13:584  50412; [WIN_CORE] loopback audio stream has now started...
+INFO    21:02:13:584  50412; setLoopbackRecording, enabled: true, delay 180, aec 1 
+ERROR   21:02:13:584  50412; failed to join channel due to NOT in IDLE
+INFO    21:02:13:584  50412; [ap/u] **responsed from 54.223.118.211:1080, TDS(64).
+INFO    21:02:13:584  50412; [ap] onAPTdsRes success with config: {}, size: 0
+INFO    21:02:13:585  50412; [rlbs/u] responsed from 52.80.192.229:9700 with servers 61.54.25.56:8913
+INFO    21:02:13:585  50412; [rs] updateServers 61.54.25.56:8913, priority 3
+INFO    21:02:13:585  50412; [rs] updateServers 222.138.231.24:8913, priority 3
+INFO    21:02:13:585  50412; [rs] updateServers 101.64.176.151:8913, priority 3
+INFO    21:02:13:585  50412; [rs] dns parse result code: 11003, servers size: 0
+INFO    21:02:13:585  50412; [ap] onParsedDns with err 11003, 
+INFO    21:02:13:585  50412; [ap/u] **responsed from 47.244.4.122:8000, TDS(64).
+INFO    21:02:13:585  50412; [ap/u] **responsed from 50.17.126.121:25000, TDS(64).
+INFO    21:02:13:631  50412; [vocs/u] **responsed from 106.14.12.130:1080, 3 vos, elapsed 593, server ts 1575378133145, wan ip 58.19.1.66
+INFO    21:02:13:635  50412; [vos] added server: 61.54.25.50:4010
+INFO    21:02:13:635  50412; [vos] added server: 125.45.14.2:4004
+INFO    21:02:13:635  50412; [vos] added server: 125.45.14.18:4005
+INFO    21:02:13:637  50412; [ch0] vos initialized
+INFO    21:02:13:637  50412; [vos] selected: 125.45.14.18:4005
+ERROR   21:02:13:637  50412; [ch0] login strategy=2
+INFO    21:02:13:637  50412; [ds]: ver 1 ds '{"streamType":1,"clientRole":1}'
+INFO    21:02:13:637  50412; [ch0] Login VOS (proto:12, cid:3586057738, uid:100546, ts:1575378133638, ticket size:124 detail size: 321 ds:1 stream:+A-V) 2: 125.45.14.18:4005
+INFO    21:02:13:688  50412; [vocs/u] **responsed from 47.244.4.122:25000, 3 vos, elapsed 650, server ts 1575378133199, wan ip 58.19.1.66
+INFO    21:02:13:688  50412; [vos] added server: 61.54.25.52:4012
+INFO    21:02:13:688  50412; [vos] added server: 222.138.231.18:4011
+INFO    21:02:13:714  50412; [ch0] **VOS response to login request (res 0 elapsed 676, server ts 1575378133246, s-c:-468) from 125.45.14.18:4005, and current dest server 125.45.14.18:4005
+INFO    21:02:13:714  50412; updateActiveVosList: ["125.45.14.18:4005"]
+INFO    21:02:13:714  50412; [cm] connection state changed from 2 to 3
+INFO    21:02:13:714  50412; [che] start call begins
+INFO    21:02:13:714  50412; Update settings: mode 3, rec_source -10, rec_fs 16000, builtin aec 0
+INFO    21:02:13:714  50412; Set Application Mode in RTC Engine to No. 4 UC 0
+INFO    21:02:13:715  50412; SetCodec by type : No. 77
+INFO    21:02:13:720  50412; [che] start call returns 0, elapsed 7
+INFO    21:02:13:720 136260; setLoopbackRecording, enabled: true, delay 180, aec 1 
+INFO    21:02:13:720  50412; [time] process EngineStartCall takes 7
+INFO    21:02:13:720  50412; setNetEQMinimumPlayoutDelay delay(0)
+INFO    21:02:13:720  50412; join channel success: cname 'd961c0bc22e9efe7caa5067cf2a6685d' uid 100546 elapsed 683
+INFO    21:02:13:721  50412; CacheManager: save cache to storage elapsed 0
+INFO    21:02:13:724 136260; [WIN_CORE] Audio Engine's current mix format for rendering shared-mode streams:
+INFO    21:02:13:724 136260; [WIN_CORE] wFormatTag     : 0xFFFE (65534)
+INFO    21:02:13:724 136260; [WIN_CORE] nChannels      : 2
+INFO    21:02:13:724 136260; [WIN_CORE] nSamplesPerSec : 48000
+INFO    21:02:13:724 136260; [WIN_CORE] wBitsPerSample : 32
+INFO    21:02:13:727 136260; [WIN_CORE] IsFormatSupported : nChannels=2, nSamplesPerSec=48000 is supported
+INFO    21:02:13:727 136260; [WIN_CORE] VoE selected this rendering format:
+INFO    21:02:13:727 136260; [WIN_CORE] wFormatTag         : 0x1 (1)
+INFO    21:02:13:727 136260; [WIN_CORE] nChannels          : 2
+INFO    21:02:13:727 136260; [WIN_CORE] nSamplesPerSec     : 48000
+INFO    21:02:13:727 136260; [WIN_CORE] wBitsPerSample     : 16
+INFO    21:02:13:743 136260; [WIN_CORE] render Initialize time 0  hr 0
+INFO    21:02:13:743 136260; [WIN_CORE] IAudioClient::GetBufferSize() => 1056 (<=> 4224 bytes)
+INFO    21:02:13:743 136260; [WIN_CORE] render side is now initialized
+INFO    21:02:13:743 136576; [WIN_CORE] render thread is now registered with MMCSS (taskIndex=1352)
+INFO    21:02:13:743 136576; [WIN_CORE] [REND] size of buffer       : 1056
+INFO    21:02:13:743 136576; [WIN_CORE] [REND] max stream latency   : 0 (0.00 ms)
+INFO    21:02:13:744 136576; [WIN_CORE] [REND] device period        : 100000 (10.00 ms)
+INFO    21:02:13:744 136576; [WIN_CORE] [REND] initial delay        : 30
+INFO    21:02:13:744 136576; [WIN_CORE] [REND] endpointBufferSizeMS : 22.00
+INFO    21:02:13:744 136260; [WIN_CORE] rendering audio stream has now started...
+INFO    21:02:13:744 136260; output: enabled=0
+INFO    21:02:13:744 136260; output: volume=66
+INFO    21:02:13:744 136260; => OnWindowsCurrentDeviceChange() : kPlayoutDevice attributes 0
+INFO    21:02:13:744 136260; StartPlayout complete
+INFO    21:02:13:744 136260; StartSend
+INFO    21:02:13:746  50412; [ch0] rtt: 26
+INFO    21:02:13:747 136260; [WIN_CORE] Audio Engine's current mix format for capturing shared-mode streams:
+INFO    21:02:13:747 136260; [WIN_CORE] wFormatTag     : 0xFFFE (65534)
+INFO    21:02:13:747 136260; [WIN_CORE] nChannels      : 2
+INFO    21:02:13:747 136260; [WIN_CORE] nSamplesPerSec : 48000
+INFO    21:02:13:747 136260; [WIN_CORE] wBitsPerSample : 32
+INFO    21:02:13:747 136260; [WIN_CORE] IsFormatSupported : nChannels=2, nSamplesPerSec=48000 is supported
+INFO    21:02:13:747 136260; [WIN_CORE] VoE selected this capturing format:
+INFO    21:02:13:747 136260; [WIN_CORE] wFormatTag        : 0x1 (1)
+INFO    21:02:13:747 136260; [WIN_CORE] nChannels         : 2
+INFO    21:02:13:747 136260; [WIN_CORE] nSamplesPerSec    : 48000
+INFO    21:02:13:747 136260; [WIN_CORE] wBitsPerSample    : 16
+INFO    21:02:13:786 136260; [WIN_CORE] capture Initialize time 0  hr 0
+INFO    21:02:13:786 136260; [WIN_CORE] IAudioClient::GetBufferSize() => 1056 (<=> 4224 bytes)
+INFO    21:02:13:786 136260; [WIN_CORE] capture side is now initialized
+INFO    21:02:13:786 136004; [WIN_CORE] [CAPT] size of buffer       : 1056
+INFO    21:02:13:786 136004; [WIN_Local Date: 12�� 03 2019 Local Time: 21:02:17
+Build info: Nov 11 2019 19:43:50 r
+
+INFO    21:02:17:113 136324; [rp] {"rtc.channel_profile":1}
+INFO    21:02:17:113 136324; [rp] {"rtc.client_role":1}
+INFO    21:02:17:113 136324; set client role to broadcaster
+INFO    21:02:17:113 136324; [rp] {"rtc.video.enabled":false}
+INFO    21:02:17:113 136324; API call to disable video
+INFO    21:02:17:113 136324; [rp] {"che.audio.profile":{"config":0,"scenario":1}}
+INFO    21:02:17:113 136324; Audio Profile is set to: (config = 0, scenario = 1)
+INFO    21:02:17:113 136324; [rp] {"rtc.audio.enabled":true,"che.audio.enable.recording.device":true}
+INFO    21:02:17:113 136324; [rp] {"rtc.video.web_h264_interop_enable":true,"che.video.web_h264_interop_enable":true}
+INFO    21:02:17:113 136324; [rp] {"che.audio.morph.voice_changer":0}
+INFO    21:02:17:113 136324; [rp] {"che.audio.loopback.recording":true}
+INFO    21:02:17:113 136324; doStopLastmileProbeTest
+INFO    21:02:17:113 136324; ***CALL BEGIN: appid:'6a****************************ae' cname:'d961c0bc22e9efe7caa5067cf2a6685d' info:'Electron' sid:'2DCBBEB862A646898573109856D47E05'
+INFO    21:02:17:113 136324; addRef of media engine, ref=1
+INFO    21:02:17:116 136324; [che] create chat engine, ctx:00000000
+INFO    21:02:17:116 136324; [MYDEBUG] large group call false
+INFO    21:02:17:116 136324; ChatEngineParameterHelper::applyMediaEngineMode: 
+INFO    21:02:17:116 136324; applyMediaEngineMode(): Hardware encoding false Hardware decoding false
+INFO    21:02:17:116 137188; Thread with name:AudioAsyncTask started 
+INFO    21:02:17:116 136324; engine git commit version:9899c5e51 and branch:(HEAD
+INFO    21:02:17:117 136324; output: kPlatformDefaultAudio
+INFO    21:02:17:117 136324; [WIN_CORE] +++++++Code block begins for checking CoreAudio properties++++++
+INFO    21:02:17:121 136324; AgoraRTC::AudioDeviceNotificationWindows::AudioDeviceNotificationWindows created
+INFO    21:02:17:127 136324; [WIN_CORE] ===================Render Devices Enumeration===================
+INFO    21:02:17:127 136324; [WIN_CORE] #rendering endpoint devices (counting all): 3
+INFO    21:02:17:127 136324; [WIN_CORE] ++Endpoint  0:
+INFO    21:02:17:127 136324; [WIN_CORE] ID string    : {0.0.0.00000000}.{1518cfc6-a68f-46dd-ad30-1874fdda99cb}
+INFO    21:02:17:127 136324; [WIN_CORE] friendly name: "VG2453 Series (英特尔(R) 显示器音频)"
+INFO    21:02:17:127 136324; [WIN_CORE] state (0x1)  : *ACTIVE*
+INFO    21:02:17:127 136324; [WIN_CORE] ++Endpoint  1:
+INFO    21:02:17:127 136324; [WIN_CORE] ID string    : {0.0.0.00000000}.{798f7c70-adea-4e09-934d-4a191726db61}
+INFO    21:02:17:127 136324; [WIN_CORE] friendly name: "扬声器 (Realtek High Definition Audio)"
+INFO    21:02:17:127 136324; [WIN_CORE] state (0x1)  : *ACTIVE*
+INFO    21:02:17:127 136324; [WIN_CORE] ++Endpoint  2:
+INFO    21:02:17:127 136324; [WIN_CORE] ID string    : {0.0.0.00000000}.{f9dce68b-6638-4a42-ba3c-e2b8aaf56d05}
+INFO    21:02:17:127 136324; [WIN_CORE] friendly name: "Realtek Digital Output (Realtek High Definition Audio)"
+INFO    21:02:17:127 136324; [WIN_CORE] state (0x1)  : *ACTIVE*
+INFO    21:02:17:127 136324; [WIN_CORE] =========================EnumDeviceEnd==========================
+INFO    21:02:17:128 136324; [WIN_CORE] ==================Capture Devices Enumeration===================
+INFO    21:02:17:128 136324; [WIN_CORE] #capturing endpoint devices (counting all): 3
+INFO    21:02:17:128 136324; [WIN_CORE] ++Endpoint  0:
+INFO    21:02:17:128 136324; [WIN_CORE] ID string    : {0.0.1.00000000}.{033bd0fb-2dba-42fd-94fc-4cdc10f6c1d2}
+INFO    21:02:17:128 136324; [WIN_CORE] friendly name: "线路输入 (Realtek High Definition Audio)"
+INFO    21:02:17:128 136324; [WIN_CORE] state (0x8)  : UNPLUGGED
+INFO    21:02:17:128 136324; [WIN_CORE] ++Endpoint  1:
+INFO    21:02:17:128 136324; [WIN_CORE] ID string    : {0.0.1.00000000}.{3eee6b8c-4f00-438a-96e5-4db32dce00f7}
+INFO    21:02:17:128 136324; [WIN_CORE] friendly name: "立体声混音 (Realtek High Definition Audio)"
+INFO    21:02:17:128 136324; [WIN_CORE] state (0x2)  : DISABLED
+INFO    21:02:17:128 136324; [WIN_CORE] ++Endpoint  2:
+INFO    21:02:17:128 136324; [WIN_CORE] ID string    : {0.0.1.00000000}.{61f26d7b-6f33-4fa9-8e2c-ad56bd03d5a8}
+INFO    21:02:17:129 136324; [WIN_CORE] friendly name: "麦克风 (Realtek High Definition Audio)"
+INFO    21:02:17:129 136324; [WIN_CORE] state (0x1)  : *ACTIVE*
+INFO    21:02:17:129 136324; [WIN_CORE] =========================EnumDeviceEnd==========================
+INFO    21:02:17:130 136324; [WIN_CORE] *** Windows Core Audio is supported ***
+INFO    21:02:17:130 136324; [WIN_CORE] ++++++++Code block ends for checking CoreAudio properties++++++++
+INFO    21:02:17:130 136324; audio jitterbuffer new smooth
+INFO    21:02:17:130 136324;   OS info: Microsoft  (build 17134), 64-bit
+INFO    21:02:17:132 136324; [WIN_CORE] Set playout device on Windows by Windows Device Type (-2): friendly name: "扬声器 (Realtek High Definition Audio)"
+INFO    21:02:17:144 136324; [WIN_CORE] Set recording device on Windows by Windows Device Type (-2): friendly name: "麦克风 (Realtek High Definition Audio)"
+INFO    21:02:17:147 136324; StereoPlayoutIsAvailable(), output: available=1
+INFO    21:02:17:147 136324; StereoRecordingIsAvailable(), output: available=1
+INFO    21:02:17:147 136324; RegisterReceiveCodec 13.
+INFO    21:02:17:147 136324; RegisterReceiveCodec 98.
+INFO    21:02:17:147 136324; RegisterReceiveCodec 99.
+INFO    21:02:17:147 136324; RegisterReceiveCodec 100.
+INFO    21:02:17:147 136324; RegisterReceiveCodec 127.
+INFO    21:02:17:147 136736; Thread with name:EngineMonitorThread started 
+INFO    21:02:17:147 136324; RegisterVolumeNotify
+INFO    21:02:17:147 136324; setMuteStatus, muted: Off
+INFO    21:02:17:147 136324; setMuteOutput, muted: false
+INFO    21:02:17:147 136324; Audio Engine Init success
+INFO    21:02:17:147 136324; [che] chat engine initialized
+INFO    21:02:17:147 136324; [time] process EngineInitialize takes 35
+INFO    21:02:17:148 136324; [tactics] version:2.8.2.121 maxBitrate:400 640X360 15 fps needHandle:1
+INFO    21:02:17:148 136324; [tactics] config json version:20150101-0000 duallinkd:true poor:u
+INFO    21:02:17:148 136324; [tactics] parse config for beckon error for tactics size:15
+INFO    21:02:17:159 136324; [vocs] vocs initialized
+ERROR   21:02:17:160 136324; [cm] session '64494859D01B4261B163BD1C27C9F3CB' was not terminated properly
+INFO    21:02:17:161 136324; CacheManager: save cache to storage elapsed 0
+INFO    21:02:17:161 136324; [cm] emit join channel signal, size=4
+INFO    21:02:17:161 136324; [cm] connection state changed from 1 to 2
+INFO    21:02:17:161 136324; [tactics] version:2.8.2.121 maxBitrate:400 640X360 15 fps needHandle:1
+INFO    21:02:17:161 136324; [vocs] lookup channel...
+INFO    21:02:17:161 136324; [vocs] selected: 52.194.158.59:8000
+INFO    21:02:17:161 136324; connecting to 52.194.158.59:8000 handle 1a74c278, 2292
+INFO    21:02:17:161 136324; [vocs] report bitrate: a/v/t: 50/400/450
+INFO    21:02:17:161 136324; [vocs] creating channel with 52.194.158.59:8000, ts 1575378137162.......
+INFO    21:02:17:161 136324; [vocs] selected: 106.14.12.130:1080
+INFO    21:02:17:161 136324; [vocs] report bitrate: a/v/t: 50/400/450
+INFO    21:02:17:161 136324; [vocs] creating channel with 106.14.12.130:1080, ts 1575378137162.......
+INFO    21:02:17:161 136324; [vocs] selected: 47.244.4.122:25000
+INFO    21:02:17:161 136324; [vocs] report bitrate: a/v/t: 50/400/450
+INFO    21:02:17:161 136324; [vocs] creating channel with 47.244.4.122:25000, ts 1575378137162.......
+INFO    21:02:17:161 136324; [ap/u] **responsed from 54.223.118.211:1080, TDS(64).
+INFO    21:02:17:161 136324; [ap] onAPTdsRes success with config: {}, size: 0
+INFO    21:02:17:162 136324; [rlbs/u] responsed from 52.80.192.229:9700 with servers 221.204.199.199:8913
+INFO    21:02:17:162 136324; [rs] updateServers 221.204.199.199:8913, priority 3
+INFO    21:02:17:162 136324; [rs] updateServers 59.83.214.119:8913, priority 3
+INFO    21:02:17:162 136324; [rs] updateServers 220.194.222.106:8913, priority 3
+INFO    21:02:17:162 136324; [rs] dns parse result code: 11003, servers size: 0
+INFO    21:02:17:162 136324; [ap] onParsedDns with err 11003, 
+INFO    21:02:17:162 136324; [ap/u] **responsed from 47.244.4.122:8000, TDS(64).
+INFO    21:02:17:206 136324; [vocs/u] **responsed from 106.14.12.130:1080, 3 vos, elapsed 148, server ts 1575378136732, wan ip 58.19.1.66
+INFO    21:02:17:206 136324; [vos] added server: 222.138.231.20:4007
+INFO    21:02:17:206 136324; [vos] added server: 61.54.25.51:4001
+INFO    21:02:17:206 136324; [vos] added server: 125.45.14.18:4005
+INFO    21:02:17:206 136324; [ch0] vos initialized
+INFO    21:02:17:206 136324; [vos] selected: 125.45.14.18:4005
+ERROR   21:02:17:206 136324; [ch0] login strategy=2
+INFO    21:02:17:206 136324; [ds]: ver 1 ds '{"streamType":1,"clientRole":1}'
+INFO    21:02:17:206 136324; [ch0] Login VOS (proto:12, cid:3586057738, uid:100546, ts:1575378137206, ticket size:124 detail size: 321 ds:1 stream:+A-V) 2: 125.45.14.18:4005
+INFO    21:02:17:283 136324; [ch0] **VOS response to login request (res 0 elapsed 225, server ts 1575378136812, s-c:-472) from 125.45.14.18:4005, and current dest server 125.45.14.18:4005
+INFO    21:02:17:283 136324; updateActiveVosList: ["125.45.14.18:4005"]
+INFO    21:02:17:283 136324; [cm] connection state changed from 2 to 3
+INFO    21:02:17:283 136324; [che] start call begins
+INFO    21:02:17:283 136324; Update settings: mode 3, rec_source -10, rec_fs 16000, builtin aec 0
+INFO    21:02:17:283 136324; Set Application Mode in RTC Engine to No. 4 UC 0
+INFO    21:02:17:283 136324; SetCodec by type : No. 77
+INFO    21:02:17:284 136324; [che] start call returns 0, elapsed 1
+INFO    21:02:17:284 136324; [time] process EngineStartCall takes 1
+INFO    21:02:17:284 136324; setNetEQMinimumPlayoutDelay delay(0)
+INFO    21:02:17:284 136324; join channel success: cname 'd961c0bc22e9efe7caa5067cf2a6685d' uid 100546 elapsed 226
+INFO    21:02:17:284 136324; CacheManager: save cache to storage elapsed 0
+INFO    21:02:17:286 137188; [WIN_CORE] Audio Engine's current mix format for loopback shared-mode streams:
+INFO    21:02:17:286 137188; [WIN_CORE] wFormatTag     : 0xFFFE (65534)
+INFO    21:02:17:286 137188; [WIN_CORE] nChannels      : 2
+INFO    21:02:17:286 137188; [WIN_CORE] nSamplesPerSec : 48000
+INFO    21:02:17:286 137188; [WIN_CORE] wBitsPerSample : 32
+INFO    21:02:17:291 137188; [WIN_CORE] IsFormatSupported : nChannels=2, nSamplesPerSec=48000 is supported
+INFO    21:02:17:291 137188; [WIN_CORE] VoE selected this loopback format:
+INFO    21:02:17:291 137188; [WIN_CORE] wFormatTag        : 0x1 (1)
+INFO    21:02:17:291 137188; [WIN_CORE] nChannels         : 2
+INFO    21:02:17:291 137188; [WIN_CORE] nSamplesPerSec    : 48000
+INFO    21:02:17:291 137188; [WIN_CORE] wBitsPerSample    : 16
+INFO    21:02:17:299 137188; [WIN_CORE] loopback Initialize time 0  hr 0
+INFO    21:02:17:299 137188; [WIN_CORE] IAudioClient::GetBufferSize() => 1056 (<=> 4224 bytes)
+INFO    21:02:17:299 137188; [WIN_CORE] loopback capture side is now initialized
+WARN    21:02:17:299 134016; [WIN_CORE] Loopback failed to boost rec-thread using MMCSS
+INFO    21:02:17:299 134016; [WIN_CORE] loopback [CAPT] size of buffer       : 1056
+INFO    21:02:17:299 134016; [WIN_CORE] loopback [CAPT] size of sync buffer  : 8448 [bytes]
+INFO    21:02:17:301 137188; [WIN_CORE] loopback audio stream has now started...
+INFO    21:02:17:301 137188; setLoopbackRecording, enabled: true, delay 180, aec 1 
+INFO    21:02:17:304 136324; [ch0] rtt: 20
+INFO    21:02:17:306 137188; [WIN_CORE] Audio Engine's current mix format for rendering shared-mode streams:
+INFO    21:02:17:306 137188; [WIN_CORE] wFormatTag     : 0xFFFE (65534)
+INFO    21:02:17:306 137188; [WIN_CORE] nChannels      : 2
+INFO    21:02:17:306 137188; [WIN_CORE] nSamplesPerSec : 48000
+INFO    21:02:17:306 137188; [WIN_CORE] wBitsPerSample : 32
+INFO    21:02:17:309 137188; [WIN_CORE] IsFormatSupported : nChannels=2, nSamplesPerSec=48000 is supported
+INFO    21:02:17:309 137188; [WIN_CORE] VoE selected this rendering format:
+INFO    21:02:17:309 137188; [WIN_CORE] wFormatTag         : 0x1 (1)
+INFO    21:02:17:309 137188; [WIN_CORE] nChannels          : 2
+INFO    21:02:17:309 137188; [WIN_CORE] nSamplesPerSec     : 48000
+INFO    21:02:17:309 137188; [WIN_CORE] wBitsPerSample     : 16
+INFO    21:02:17:315 136324; [vocs/u] **responsed from 52.194.158.59:8000, 3 vos, elapsed 257, server ts 1575378136764, wan ip 58.19.1.66
+INFO    21:02:17:315 136324; [vos] added server: 222.138.231.22:4004
+INFO    21:02:17:315 136324; [vos] added server: 61.54.25.50:4003
+INFO    21:02:17:321 137188; [WIN_CORE] render Initialize time 0  hr 0
+INFO    21:02:17:321 137188; [WIN_CORE] IAudioClient::GetBufferSize() => 1056 (<=> 4224 bytes)
+INFO    21:02:17:321 137188; [WIN_CORE] render side is now initialized
+INFO    21:02:17:321 135236; [WIN_CORE] render thread is now registered with MMCSS (taskIndex=1356)
+INFO    21:02:17:321 135236; [WIN_CORE] [REND] size of buffer       : 1056
+INFO    21:02:17:321 135236; [WIN_CORE] [REND] max stream latency   : 0 (0.00 ms)
+INFO    21:02:17:322 135236; [WIN_CORE] [REND] device period        : 100000 (10.00 ms)
+INFO    21:02:17:322 135236; [WIN_CORE] [REND] initial delay        : 30
+INFO    21:02:17:322 135236; [WIN_CORE] [REND] endpointBufferSizeMS : 22.00
+INFO    21:02:17:322 137188; [WIN_CORE] rendering audio stream has now started...
+INFO    21:02:17:322 137188; output: enabled=0
+INFO    21:02:17:322 137188; output: volume=66
+INFO    21:02:17:322 137188; => OnWindowsCurrentDeviceChange() : kPlayoutDevice attributes 0
+INFO    21:02:17:322 137188; StartPlayout complete
+INFO    21:02:17:322 137188; StartSend
+INFO    21:02:17:325 137188; [WIN_CORE] Audio Engine's current mix format for capturing shared-mode streams:
+INFO    21:02:17:325 137188; [WIN_CORE] wFormatTag     : 0xFFFE (65534)
+INFO    21:02:17:325 137188; [WIN_CORE] nChannels      : 2
+INFO    21:02:17:325 137188; [WIN_CORE] nSamplesPerSec : 48000
+INFO    21:02:17:325 137188; [WIN_CORE] wBitsPerSample : 32
+INFO    21:02:17:325 137188; [WIN_CORE] IsFormatSupported : nChannels=2, nSamplesPerSec=48000 is supported
+INFO    21:02:17:325 137188; [WIN_CORE] VoE selected this capturing format:
+INFO    21:02:17:325 137188; [WIN_CORE] wFormatTag        : 0x1 (1)
+INFO    21:02:17:325 137188; [WIN_CORE] nChannels         : 2
+INFO    21:02:17:325 137188; [WIN_CORE] nSamplesPerSec    : 48000
+INFO    21:02:17:325 137188; [WIN_CORE] wBitsPerSample    : 16
+INFO    21:02:17:351 136324; [vocs/u] **responsed from 47.244.4.122:25000, 3 vos, elapsed 293, server ts 1575378136878, wan ip 58.19.1.66
+INFO    21:02:17:351 136324; [vos] added server: 222.138.231.23:4003
+INFO    21:02:17:351 136324; [vos] added server: 61.54.25.55:4007
+INFO    21:02:17:361 136324; [ap/u] **responsed from 50.17.126.121:25000, TDS(64).
+INFO    21:02:17:361 137188; [WIN_CORE] capture Initialize time 0  hr 0
+INFO    21:02:17:361 137188; [WIN_CORE] IAudioClient::GetBufferSize() => 1056 (<=> 4224 bytes)
+INFO    21:02:17:362 137188; [WIN_CORE] capture side is now initialized
+INFO    21:02:17:362 136864; [WIN_CORE] [CAPT] size of buffer       : 1056
+INFO    21:02:17:362 136864; [WIN_CORE] [CAPT] size of sync buffer  : 8448 [bytes]
+INFO    21:02:17:362 136864; [WIN_CORE] [CAPT] max stream latency   : 0 (0.00 ms)
+INFO    21:02:17:362 136864; [WIN_CORE] [CAPT] device period        : 100000 (10.00 ms)
+INFO    21:02:17:362 136864; [WIN_CORE] [CAPT] extraDelayMS         : 10.00
+INFO    21:02:17:362 136864; [WIN_CORE] [CAPT] endpointBufferSizeMS : 22.00
+INFO    21:02:17:363 137188; [WIN_CORE] capture audio stream has now started...
+INFO    21:02:17:364 137188; output: enabled=0
+INFO    21:02:17:364 137188; => OnWindowsCurrentDeviceChange() : kRecordingDevice micBoost 503319050 max: 30.0 min:  0.0 step: 10.0 level: 10.0 volume:240
+INFO    21:02:17:364 137188; StartRecording complete
+INFO    21:02:17:364 137188; Application Config module:  Route 0, NS on, AEC on, AGC on, BSS off, HC off
+INFO    21:02:17:364 137188; MID = 0, Routing = 0
+INFO    21:02:17:364 137188; output: kWindowsCoreAudio
+INFO    21:02:17:364 137188;   Output: audioLayer=2
+INFO    21:02:17:364 137188; output: volume=255
+INFO    21:02:17:364 137188; output: enabled=0
+INFO    21:02:17:364 137188; output: enabled=0
+INFO    21:02:17:365 137188; output: enabled=0
+INFO    21:02:17:394 136324; TRACER: onFirstLocalAudioFrame codec 77 elapsed 336
+Local Date: 12�� 03 2019 Local Time: 21:02:20
+Build info: Nov 11 2019 19:43:50 r
+
+INFO    21:02:20:853 133860; [rp] {"rtc.channel_profile":1}
+INFO    21:02:20:853 133860; [rp] {"rtc.client_role":1}
+INFO    21:02:20:853 133860; set client role to broadcaster
+INFO    21:02:20:853 133860; [rp] {"rtc.video.enabled":false}
+INFO    21:02:20:853 133860; API call to disable video
+INFO    21:02:20:853 133860; [rp] {"che.audio.profile":{"config":0,"scenario":1}}
+INFO    21:02:20:853 133860; Audio Profile is set to: (config = 0, scenario = 1)
+INFO    21:02:20:853 133860; [rp] {"rtc.audio.enabled":true,"che.audio.enable.recording.device":true}
+INFO    21:02:20:853 133860; [rp] {"rtc.video.web_h264_interop_enable":true,"che.video.web_h264_interop_enable":true}
+INFO    21:02:20:853 133860; [rp] {"che.audio.morph.voice_changer":0}
+INFO    21:02:20:853 133860; [rp] {"che.audio.loopback.recording":true}
+INFO    21:02:20:853 133860; doStopLastmileProbeTest
+INFO    21:02:20:853 133860; ***CALL BEGIN: appid:'6a****************************ae' cname:'d961c0bc22e9efe7caa5067cf2a6685d' info:'Electron' sid:'ABEA118C2E034F11B33BC76FEE10B50D'
+INFO    21:02:20:853 133860; addRef of media engine, ref=1
+INFO    21:02:20:854 133860; [che] create chat engine, ctx:00000000
+INFO    21:02:20:854 133860; [MYDEBUG] large group call false
+INFO    21:02:20:854 133860; ChatEngineParameterHelper::applyMediaEngineMode: 
+INFO    21:02:20:854 133860; applyMediaEngineMode(): Hardware encoding false Hardware decoding false
+INFO    21:02:20:854 136032; Thread with name:AudioAsyncTask started 
+INFO    21:02:20:854 133860; engine git commit version:9899c5e51 and branch:(HEAD
+INFO    21:02:20:855 133860; output: kPlatformDefaultAudio
+INFO    21:02:20:855 133860; [WIN_CORE] +++++++Code block begins for checking CoreAudio properties++++++
+INFO    21:02:20:857 133860; AgoraRTC::AudioDeviceNotificationWindows::AudioDeviceNotificationWindows created
+INFO    21:02:20:862 133860; [WIN_CORE] ===================Render Devices Enumeration===================
+INFO    21:02:20:862 133860; [WIN_CORE] #rendering endpoint devices (counting all): 3
+INFO    21:02:20:862 133860; [WIN_CORE] ++Endpoint  0:
+INFO    21:02:20:863 133860; [WIN_CORE] ID string    : {0.0.0.00000000}.{1518cfc6-a68f-46dd-ad30-1874fdda99cb}
+INFO    21:02:20:863 133860; [WIN_CORE] friendly name: "VG2453 Series (英特尔(R) 显示器音频)"
+INFO    21:02:20:863 133860; [WIN_CORE] state (0x1)  : *ACTIVE*
+INFO    21:02:20:863 133860; [WIN_CORE] ++Endpoint  1:
+INFO    21:02:20:863 133860; [WIN_CORE] ID string    : {0.0.0.00000000}.{798f7c70-adea-4e09-934d-4a191726db61}
+INFO    21:02:20:864 133860; [WIN_CORE] friendly name: "扬声器 (Realtek High Definition Audio)"
+INFO    21:02:20:864 133860; [WIN_CORE] state (0x1)  : *ACTIVE*
+INFO    21:02:20:864 133860; [WIN_CORE] ++Endpoint  2:
+INFO    21:02:20:864 133860; [WIN_CORE] ID string    : {0.0.0.00000000}.{f9dce68b-6638-4a42-ba3c-e2b8aaf56d05}
+INFO    21:02:20:864 133860; [WIN_CORE] friendly name: "Realtek Digital Output (Realtek High Definition Audio)"
+INFO    21:02:20:864 133860; [WIN_CORE] state (0x1)  : *ACTIVE*
+INFO    21:02:20:864 133860; [WIN_CORE] =========================EnumDeviceEnd==========================
+INFO    21:02:20:865 133860; [WIN_CORE] ==================Capture Devices Enumeration===================
+INFO    21:02:20:865 133860; [WIN_CORE] #capturing endpoint devices (counting all): 3
+INFO    21:02:20:865 133860; [WIN_CORE] ++Endpoint  0:
+INFO    21:02:20:865 133860; [WIN_CORE] ID string    : {0.0.1.00000000}.{033bd0fb-2dba-42fd-94fc-4cdc10f6c1d2}
+INFO    21:02:20:865 133860; [WIN_CORE] friendly name: "线路输入 (Realtek High Definition Audio)"
+INFO    21:02:20:865 133860; [WIN_CORE] state (0x8)  : UNPLUGGED
+INFO    21:02:20:865 133860; [WIN_CORE] ++Endpoint  1:
+INFO    21:02:20:865 133860; [WIN_CORE] ID string    : {0.0.1.00000000}.{3eee6b8c-4f00-438a-96e5-4db32dce00f7}
+INFO    21:02:20:865 133860; [WIN_CORE] friendly name: "立体声混音 (Realtek High Definition Audio)"
+INFO    21:02:20:866 133860; [WIN_CORE] state (0x2)  : DISABLED
+INFO    21:02:20:866 133860; [WIN_CORE] ++Endpoint  2:
+INFO    21:02:20:866 133860; [WIN_CORE] ID string    : {0.0.1.00000000}.{61f26d7b-6f33-4fa9-8e2c-ad56bd03d5a8}
+INFO    21:02:20:866 133860; [WIN_CORE] friendly name: "麦克风 (Realtek High Definition Audio)"
+INFO    21:02:20:866 133860; [WIN_CORE] state (0x1)  : *ACTIVE*
+INFO    21:02:20:866 133860; [WIN_CORE] =========================EnumDeviceEnd==========================
+INFO    21:02:20:868 133860; [WIN_CORE] *** Windows Core Audio is supported ***
+INFO    21:02:20:868 133860; [WIN_CORE] ++++++++Code block ends for checking CoreAudio properties++++++++
+INFO    21:02:20:868 133860; audio jitterbuffer new smooth
+INFO    21:02:20:868 133860;   OS info: Microsoft  (build 17134), 64-bit
+INFO    21:02:20:870 133860; [WIN_CORE] Set playout device on Windows by Windows Device Type (-2): friendly name: "扬声器 (Realtek High Definition Audio)"
+INFO    21:02:20:882 133860; [WIN_CORE] Set recording device on Windows by Windows Device Type (-2): friendly name: "麦克风 (Realtek High Definition Audio)"
+INFO    21:02:20:885 133860; StereoPlayoutIsAvailable(), output: available=1
+INFO    21:02:20:885 133860; StereoRecordingIsAvailable(), output: available=1
+INFO    21:02:20:885 133860; RegisterReceiveCodec 13.
+INFO    21:02:20:885 133860; RegisterReceiveCodec 98.
+INFO    21:02:20:885 133860; RegisterReceiveCodec 99.
+INFO    21:02:20:885 133860; RegisterReceiveCodec 100.
+INFO    21:02:20:885 133860; RegisterReceiveCodec 127.
+INFO    21:02:20:885 136272; Thread with name:EngineMonitorThread started 
+INFO    21:02:20:885 133860; RegisterVolumeNotify
+INFO    21:02:20:885 133860; setMuteStatus, muted: Off
+INFO    21:02:20:885 133860; setMuteOutput, muted: false
+INFO    21:02:20:885 133860; Audio Engine Init success
+INFO    21:02:20:885 133860; [che] chat engine initialized
+INFO    21:02:20:885 133860; [time] process EngineInitialize takes 32
+INFO    21:02:20:885 133860; [tactics] version:2.8.2.121 maxBitrate:400 640X360 15 fps needHandle:1
+INFO    21:02:20:885 133860; [tactics] config json version:20150101-0000 duallinkd:true poor:u
+INFO    21:02:20:885 133860; [tactics] parse config for beckon error for tactics size:15
+INFO    21:02:20:898 133860; [vocs] vocs initialized
+ERROR   21:02:20:899 133860; [cm] session '2DCBBEB862A646898573109856D47E05' was not terminated properly
+INFO    21:02:20:899 133860; CacheManager: save cache to storage elapsed 0
+INFO    21:02:20:899 133860; [cm] emit join channel signal, size=4
+INFO    21:02:20:899 133860; [cm] connection state changed from 1 to 2
+INFO    21:02:20:899 133860; [tactics] version:2.8.2.121 maxBitrate:400 640X360 15 fps needHandle:1
+INFO    21:02:20:899 133860; [vocs] lookup channel...
+INFO    21:02:20:899 133860; [vocs] selected: 52.194.158.59:8000
+INFO    21:02:20:899 133860; connecting to 52.194.158.59:8000 handle 1b0e6208, 2324
+INFO    21:02:20:899 133860; [vocs] report bitrate: a/v/t: 50/400/450
+INFO    21:02:20:899 133860; [vocs] creating channel with 52.194.158.59:8000, ts 1575378140900.......
+INFO    21:02:20:899 133860; [vocs] selected: 106.14.12.130:1080
+INFO    21:02:20:899 133860; [vocs] report bitrate: a/v/t: 50/400/450
+INFO    21:02:20:899 133860; [vocs] creating channel with 106.14.12.130:1080, ts 1575378140900.......
+INFO    21:02:20:899 133860; [vocs] selected: 47.244.4.122:25000
+INFO    21:02:20:899 133860; [vocs] report bitrate: a/v/t: 50/400/450
+INFO    21:02:20:899 133860; [vocs] creating channel with 47.244.4.122:25000, ts 1575378140900.......
+INFO    21:02:20:899 133860; [ap/u] **responsed from 54.223.118.211:1080, TDS(64).
+INFO    21:02:20:899 133860; [ap] onAPTdsRes success with config: {}, size: 0
+INFO    21:02:20:899 133860; [rs] dns parse result code: 11003, servers size: 0
+INFO    21:02:20:900 133860; [ap] onParsedDns with err 11003, 
+INFO    21:02:20:900 133860; [ap/u] **responsed from 47.244.4.122:8000, TDS(64).
+INFO    21:02:20:927 133860; [rlbs/u] responsed from 52.80.192.229:9700 with servers 101.64.176.200:8913
+INFO    21:02:20:927 133860; [rs] updateServers 101.64.176.200:8913, priority 3
+INFO    21:02:20:927 133860; [rs] updateServers 111.202.4.80:8913, priority 3
+INFO    21:02:20:927 133860; [rs] updateServers 218.60.5.103:8913, priority 3
+INFO    21:02:20:952 133860; [vocs/u] **responsed from 106.14.12.130:1080, 3 vos, elapsed 143, server ts 1575378140474, wan ip 58.19.1.66
+INFO    21:02:20:953 133860; [vos] added server: 125.45.14.18:4005
+INFO    21:02:20:953 133860; [vos] added server: 211.91.242.24:4007
+INFO    21:02:20:953 133860; [ch0] vos initialized
+INFO    21:02:20:953 133860; [vos] selected: 211.91.242.24:4007
+ERROR   21:02:20:953 133860; [ch0] login strategy=2
+INFO    21:02:20:953 133860; [ds]: ver 1 ds '{"streamType":1,"clientRole":1}'
+INFO    21:02:20:954 133860; [ch0] Login VOS (proto:12, cid:3586057738, uid:100546, ts:1575378140954, ticket size:124 detail size: 321 ds:1 stream:+A-V) 2: 211.91.242.24:4007
+INFO    21:02:21:005 133860; [vocs/u] **responsed from 47.244.4.122:25000, 3 vos, elapsed 196, server ts 1575378140507, wan ip 58.19.1.66
+INFO    21:02:21:005 133860; [vos] added server: 61.54.25.51:4010
+INFO    21:02:21:005 133860; [vos] added server: 125.45.14.3:4009
+INFO    21:02:21:021 133860; [ch0] **VOS response to login request (res 0 elapsed 212, server ts 1575378140512, s-c:-510) from 211.91.242.24:4007, and current dest server 211.91.242.24:4007
+INFO    21:02:21:021 133860; updateActiveVosList: ["211.91.242.24:4007"]
+INFO    21:02:21:021 133860; [cm] connection state changed from 2 to 3
+INFO    21:02:21:021 133860; [che] start call begins
+INFO    21:02:21:021 133860; Update settings: mode 3, rec_source -10, rec_fs 16000, builtin aec 0
+INFO    21:02:21:021 133860; Set Application Mode in RTC Engine to No. 4 UC 0
+INFO    21:02:21:022 133860; SetCodec by type : No. 77
+INFO    21:02:21:023 133860; [che] start call returns 0, elapsed 2
+INFO    21:02:21:023 133860; [time] process EngineStartCall takes 2
+INFO    21:02:21:024 133860; setNetEQMinimumPlayoutDelay delay(0)
+INFO    21:02:21:024 133860; join channel success: cname 'd961c0bc22e9efe7caa5067cf2a6685d' uid 100546 elapsed 215
+INFO    21:02:21:024 133860; CacheManager: save cache to storage elapsed 1
+INFO    21:02:21:029 136032; [WIN_CORE] Audio Engine's current mix format for loopback shared-mode streams:
+INFO    21:02:21:029 136032; [WIN_CORE] wFormatTag     : 0xFFFE (65534)
+INFO    21:02:21:029 136032; [WIN_CORE] nChannels      : 2
+INFO    21:02:21:029 136032; [WIN_CORE] nSamplesPerSec : 48000
+INFO    21:02:21:029 136032; [WIN_CORE] wBitsPerSample : 32
+INFO    21:02:21:035 136032; [WIN_CORE] IsFormatSupported : nChannels=2, nSamplesPerSec=48000 is supported
+INFO    21:02:21:035 136032; [WIN_CORE] VoE selected this loopback format:
+INFO    21:02:21:035 136032; [WIN_CORE] wFormatTag        : 0x1 (1)
+INFO    21:02:21:035 136032; [WIN_CORE] nChannels         : 2
+INFO    21:02:21:035 136032; [WIN_CORE] nSamplesPerSec    : 48000
+INFO    21:02:21:035 136032; [WIN_CORE] wBitsPerSample    : 16
+INFO    21:02:21:041 133860; [ch0] rtt: 16
+INFO    21:02:21:042 136032; [WIN_CORE] loopback Initialize time 0  hr 0
+INFO    21:02:21:042 136032; [WIN_CORE] IAudioClient::GetBufferSize() => 1056 (<=> 4224 bytes)
+INFO    21:02:21:042 136032; [WIN_CORE] loopback capture side is now initialized
+WARN    21:02:21:043 136912; [WIN_CORE] Loopback failed to boost rec-thread using MMCSS
+INFO    21:02:21:043 136912; [WIN_CORE] loopback [CAPT] size of buffer       : 1056
+INFO    21:02:21:043 136912; [WIN_CORE] loopback [CAPT] size of sync buffer  : 8448 [bytes]
+INFO    21:02:21:043 136032; [WIN_CORE] loopback audio stream has now started...
+INFO    21:02:21:043 136032; setLoopbackRecording, enabled: true, delay 180, aec 1 
+INFO    21:02:21:046 136032; [WIN_CORE] Audio Engine's current mix format for rendering shared-mode streams:
+INFO    21:02:21:046 136032; [WIN_CORE] wFormatTag     : 0xFFFE (65534)
+INFO    21:02:21:046 136032; [WIN_CORE] nChannels      : 2
+INFO    21:02:21:046 136032; [WIN_CORE] nSamplesPerSec : 48000
+INFO    21:02:21:046 136032; [WIN_CORE] wBitsPerSample : 32
+INFO    21:02:21:050 136032; [WIN_CORE] IsFormatSupported : nChannels=2, nSamplesPerSec=48000 is supported
+INFO    21:02:21:050 136032; [WIN_CORE] VoE selected this rendering format:
+INFO    21:02:21:050 136032; [WIN_CORE] wFormatTag         : 0x1 (1)
+INFO    21:02:21:050 136032; [WIN_CORE] nChannels          : 2
+INFO    21:02:21:050 136032; [WIN_CORE] nSamplesPerSec     : 48000
+INFO    21:02:21:050 136032; [WIN_CORE] wBitsPerSample     : 16
+INFO    21:02:21:062 136032; [WIN_CORE] render Initialize time 0  hr 0
+INFO    21:02:21:062 136032; [WIN_CORE] IAudioClient::GetBufferSize() => 1056 (<=> 4224 bytes)
+INFO    21:02:21:062 136032; [WIN_CORE] render side is now initialized
+INFO    21:02:21:062 136776; [WIN_CORE] render thread is now registered with MMCSS (taskIndex=1360)
+INFO    21:02:21:062 136776; [WIN_CORE] [REND] size of buffer       : 1056
+INFO    21:02:21:062 136776; [WIN_CORE] [REND] max stream latency   : 0 (0.00 ms)
+INFO    21:02:21:063 136776; [WIN_CORE] [REND] device period        : 100000 (10.00 ms)
+INFO    21:02:21:063 136776; [WIN_CORE] [REND] initial delay        : 30
+INFO    21:02:21:063 136776; [WIN_CORE] [REND] endpointBufferSizeMS : 22.00
+INFO    21:02:21:063 136032; [WIN_CORE] rendering audio stream has now started...
+INFO    21:02:21:064 136032; output: enabled=0
+INFO    21:02:21:064 136032; output: volume=66
+INFO    21:02:21:064 136032; => OnWindowsCurrentDeviceChange() : kPlayoutDevice attributes 0
+INFO    21:02:21:064 136032; StartPlayout complete
+INFO    21:02:21:064 136032; StartSend
+INFO    21:02:21:067 136032; [WIN_CORE] Audio Engine's current mix format for capturing shared-mode streams:
+INFO    21:02:21:067 136032; [WIN_CORE] wFormatTag     : 0xFFFE (65534)
+INFO    21:02:21:067 136032; [WIN_CORE] nChannels      : 2
+INFO    21:02:21:067 136032; [WIN_CORE] nSamplesPerSec : 48000
+INFO    21:02:21:067 136032; [WIN_CORE] wBitsPerSample : 32
+INFO    21:02:21:067 136032; [WIN_CORE] IsFormatSupported : nChannels=2, nSamplesPerSec=48000 is supported
+INFO    21:02:21:067 136032; [WIN_CORE] VoE selected this capturing format:
+INFO    21:02:21:067 136032; [WIN_CORE] wFormatTag        : 0x1 (1)
+INFO    21:02:21:067 136032; [WIN_CORE] nChannels         : 2
+INFO    21:02:21:067 136032; [WIN_CORE] nSamplesPerSec    : 48000
+INFO    21:02:21:067 136032; [WIN_CORE] wBitsPerSample    : 16
+INFO    21:02:21:076 133860; [vocs/u] **responsed from 52.194.158.59:8000, 3 vos, elapsed 267, server ts 1575378140511, wan ip 58.19.1.66
+INFO    21:02:21:076 133860; [vos] added server: 222.138.231.20:4011
+INFO    21:02:21:099 133860; [ap/u] **responsed from 50.17.126.121:25000, TDS(64).
+INFO    21:02:21:103 136032; [WIN_CORE] capture Initialize time 0  hr 0
+INFO    21:02:21:103 136032; [WIN_CORE] IAudioClient::GetBufferSize() => 1056 (<=> 4224 bytes)
+INFO    21:02:21:103 136032; [WIN_CORE] capture side is now initialized
+INFO    21:02:21:103 137196; [WIN_CORE] [CAPT] size of buffer       : 1056
+INFO    21:02:21:103 137196; [WIN_CORE] [CAPT] size of sync buffer  : 8448 [bytes]
+INFO    21:02:21:103 137196; [WIN_CORE] [CAPT] max stream latency   : 0 (0.00 ms)
+INFO    21:02:21:103 137196; [WIN_CORE] [CAPT] device period        : 100000 (10.00 ms)
+INFO    21:02:21:103 137196; [WIN_CORE] [CAPT] extraDelayMS         : 10.00
+INFO    21:02:21:103 137196; [WIN_CORE] [CAPT] endpointBufferSizeMS : 22.00
+INFO    21:02:21:104 136032; [WIN_CORE] capture audio stream has now started...
+INFO    21:02:21:105 136032; output: enabled=0
+INFO    21:02:21:105 136032; => OnWindowsCurrentDeviceChange() : kRecordingDevice micBoost 503319050 max: 30.0 min:  0.0 step: 10.0 level: 10.0 volume:240
+INFO    21:02:21:105 136032; StartRecording complete
+INFO    21:02:21:105 136032; Application Config module:  Route 0, NS on, AEC on, AGC on, BSS off, HC off
+INFO    21:02:21:105 136032; MID = 0, Routing = 0
+INFO    21:02:21:105 136032; output: kWindowsCoreAudio
+INFO    21:02:21:105 136032;   Output: audioLayer=2
+INFO    21:02:21:106 136032; output: volume=255
+INFO    21:02:21:106 136032; output: enabled=0
+INFO    21:02:21:106 136032; output: enabled=0
+INFO    21:02:21:106 136032; output: enabled=0
+INFO    21:02:21:135 133860; TRACER: onFirstLocalAudioFrame codec 77 elapsed 326
+INFO    21:02:25:807 133860; [rs] **report stats: seq: 35, report list size 0, tx/rx: 6074/1680, cache size: 0
+INFO    21:02:25:807 133860; [rs] report server1: 101.64.176.200:8913
+INFO    21:02:27:068 136776; Audio statistics - play count: playout count = 200  signal level: far_in = 0
+INFO    21:02:27:114 137196; Audio statistics - rec count: record count = 200 signal level: near_in = 72, near_out = 68 encode_in = 72
+Local Date: 12�� 03 2019 Local Time: 21:02:41
+Build info: Nov 11 2019 19:43:50 r
+
+INFO    21:02:41:920 137100; [rp] {"rtc.channel_profile":1}
+INFO    21:02:41:921 137100; [rp] {"rtc.client_role":1}
+INFO    21:02:41:921 137100; set client role to broadcaster
+INFO    21:02:41:921 137100; [rp] {"rtc.video.enabled":false}
+INFO    21:02:41:921 137100; API call to disable video
+INFO    21:02:41:921 137100; [rp] {"che.audio.profile":{"config":0,"scenario":1}}
+INFO    21:02:41:921 137100; Audio Profile is set to: (config = 0, scenario = 1)
+INFO    21:02:41:921 137100; [rp] {"rtc.audio.enabled":true,"che.audio.enable.recording.device":true}
+INFO    21:02:41:921 137100; [rp] {"rtc.video.web_h264_interop_enable":true,"che.video.web_h264_interop_enable":true}
+INFO    21:02:41:921 137100; [rp] {"che.audio.morph.voice_changer":0}
+INFO    21:02:41:921 137100; [rp] {"che.audio.loopback.recording":true}
+INFO    21:02:41:921 137100; doStopLastmileProbeTest
+INFO    21:02:41:921 137100; ***CALL BEGIN: appid:'6a****************************ae' cname:'d961c0bc22e9efe7caa5067cf2a6685d' info:'Electron' sid:'F280FB91959047B4A6A2174F292F2056'
+INFO    21:02:41:921 137100; addRef of media engine, ref=1
+INFO    21:02:41:922 137100; [che] create chat engine, ctx:00000000
+INFO    21:02:41:922 137100; [MYDEBUG] large group call false
+INFO    21:02:41:922 137100; ChatEngineParameterHelper::applyMediaEngineMode: 
+INFO    21:02:41:922 137100; applyMediaEngineMode(): Hardware encoding false Hardware decoding false
+INFO    21:02:41:922  13852; Thread with name:AudioAsyncTask started 
+INFO    21:02:41:922 137100; engine git commit version:9899c5e51 and branch:(HEAD
+INFO    21:02:41:923 137100; output: kPlatformDefaultAudio
+INFO    21:02:41:923 137100; [WIN_CORE] +++++++Code block begins for checking CoreAudio properties++++++
+INFO    21:02:41:925 137100; AgoraRTC::AudioDeviceNotificationWindows::AudioDeviceNotificationWindows created
+INFO    21:02:41:940 137100; [WIN_CORE] ===================Render Devices Enumeration===================
+INFO    21:02:41:940 137100; [WIN_CORE] #rendering endpoint devices (counting all): 3
+INFO    21:02:41:940 137100; [WIN_CORE] ++Endpoint  0:
+INFO    21:02:41:940 137100; [WIN_CORE] ID string    : {0.0.0.00000000}.{1518cfc6-a68f-46dd-ad30-1874fdda99cb}
+INFO    21:02:41:940 137100; [WIN_CORE] friendly name: "VG2453 Series (英特尔(R) 显示器音频)"
+INFO    21:02:41:940 137100; [WIN_CORE] state (0x1)  : *ACTIVE*
+INFO    21:02:41:940 137100; [WIN_CORE] ++Endpoint  1:
+INFO    21:02:41:940 137100; [WIN_CORE] ID string    : {0.0.0.00000000}.{798f7c70-adea-4e09-934d-4a191726db61}
+INFO    21:02:41:940 137100; [WIN_CORE] friendly name: "扬声器 (Realtek High Definition Audio)"
+INFO    21:02:41:940 137100; [WIN_CORE] state (0x1)  : *ACTIVE*
+INFO    21:02:41:940 137100; [WIN_CORE] ++Endpoint  2:
+INFO    21:02:41:940 137100; [WIN_CORE] ID string    : {0.0.0.00000000}.{f9dce68b-6638-4a42-ba3c-e2b8aaf56d05}
+INFO    21:02:41:941 137100; [WIN_CORE] friendly name: "Realtek Digital Output (Realtek High Definition Audio)"
+INFO    21:02:41:941 137100; [WIN_CORE] state (0x1)  : *ACTIVE*
+INFO    21:02:41:941 137100; [WIN_CORE] =========================EnumDeviceEnd==========================
+INFO    21:02:41:942 137100; [WIN_CORE] ==================Capture Devices Enumeration===================
+INFO    21:02:41:942 137100; [WIN_CORE] #capturing endpoint devices (counting all): 3
+INFO    21:02:41:942 137100; [WIN_CORE] ++Endpoint  0:
+INFO    21:02:41:942 137100; [WIN_CORE] ID string    : {0.0.1.00000000}.{033bd0fb-2dba-42fd-94fc-4cdc10f6c1d2}
+INFO    21:02:41:942 137100; [WIN_CORE] friendly name: "线路输入 (Realtek High Definition Audio)"
+INFO    21:02:41:942 137100; [WIN_CORE] state (0x8)  : UNPLUGGED
+INFO    21:02:41:942 137100; [WIN_CORE] ++Endpoint  1:
+INFO    21:02:41:942 137100; [WIN_CORE] ID string    : {0.0.1.00000000}.{3eee6b8c-4f00-438a-96e5-4db32dce00f7}
+INFO    21:02:41:942 137100; [WIN_CORE] friendly name: "立体声混音 (Realtek High Definition Audio)"
+INFO    21:02:41:942 137100; [WIN_CORE] state (0x2)  : DISABLED
+INFO    21:02:41:942 137100; [WIN_CORE] ++Endpoint  2:
+INFO    21:02:41:942 137100; [WIN_CORE] ID string    : {0.0.1.00000000}.{61f26d7b-6f33-4fa9-8e2c-ad56bd03d5a8}
+INFO    21:02:41:942 137100; [WIN_CORE] friendly name: "麦克风 (Realtek High Definition Audio)"
+INFO    21:02:41:942 137100; [WIN_CORE] state (0x1)  : *ACTIVE*
+INFO    21:02:41:942 137100; [WIN_CORE] =========================EnumDeviceEnd==========================
+INFO    21:02:41:945 137100; [WIN_CORE] *** Windows Core Audio is supported ***
+INFO    21:02:41:945 137100; [WIN_CORE] ++++++++Code block ends for checking CoreAudio properties++++++++
+INFO    21:02:41:946 137100; audio jitterbuffer new smooth
+INFO    21:02:41:947 137100;   OS info: Microsoft  (build 17134), 64-bit
+INFO    21:02:41:954 137100; [WIN_CORE] Set playout device on Windows by Windows Device Type (-2): friendly name: "扬声器 (Realtek High Definition Audio)"
+INFO    21:02:41:975 137100; [WIN_CORE] Set recording device on Windows by Windows Device Type (-2): friendly name: "麦克风 (Realtek High Definition Audio)"
+INFO    21:02:41:987 137100; StereoPlayoutIsAvailable(), output: available=1
+INFO    21:02:41:987 137100; StereoRecordingIsAvailable(), output: available=1
+INFO    21:02:41:988 137100; RegisterReceiveCodec 13.
+INFO    21:02:41:988 137100; RegisterReceiveCodec 98.
+INFO    21:02:41:988 137100; RegisterReceiveCodec 99.
+INFO    21:02:41:988 137100; RegisterReceiveCodec 100.
+INFO    21:02:41:988 137100; RegisterReceiveCodec 127.
+INFO    21:02:41:988 137100; RegisterVolumeNotify
+INFO    21:02:41:988 136752; Thread with name:EngineMonitorThread started 
+INFO    21:02:41:988 137100; setMuteStatus, muted: Off
+INFO    21:02:41:988 137100; setMuteOutput, muted: false
+INFO    21:02:41:988 137100; Audio Engine Init success
+INFO    21:02:41:988 137100; [che] chat engine initialized
+INFO    21:02:41:988 137100; [time] process EngineInitialize takes 67
+INFO    21:02:41:989 137100; [tactics] version:2.8.2.121 maxBitrate:400 640X360 15 fps needHandle:1
+INFO    21:02:41:989 137100; [tactics] config json version:20150101-0000 duallinkd:true poor:u
+INFO    21:02:41:989 137100; [tactics] parse config for beckon error for tactics size:15
+INFO    21:02:42:004 137100; [vocs] vocs initialized
+ERROR   21:02:42:005 137100; [cm] session 'ABEA118C2E034F11B33BC76FEE10B50D' was not terminated properly
+INFO    21:02:42:005 137100; CacheManager: save cache to storage elapsed 1
+INFO    21:02:42:005 137100; [cm] emit join channel signal, size=4
+INFO    21:02:42:005 137100; [cm] connection state changed from 1 to 2
+INFO    21:02:42:005 137100; [tactics] version:2.8.2.121 maxBitrate:400 640X360 15 fps needHandle:1
+INFO    21:02:42:005 137100; [vocs] lookup channel...
+INFO    21:02:42:005 137100; [vocs] selected: 52.194.158.59:8000
+INFO    21:02:42:006 137100; connecting to 52.194.158.59:8000 handle 18f5e0e0, 2436
+INFO    21:02:42:006 137100; [vocs] report bitrate: a/v/t: 50/400/450
+INFO    21:02:42:006 137100; [vocs] creating channel with 52.194.158.59:8000, ts 1575378162007.......
+INFO    21:02:42:006 137100; [vocs] selected: 106.14.12.130:1080
+INFO    21:02:42:006 137100; [vocs] report bitrate: a/v/t: 50/400/450
+INFO    21:02:42:006 137100; [vocs] creating channel with 106.14.12.130:1080, ts 1575378162007.......
+INFO    21:02:42:006 137100; [vocs] selected: 47.244.4.122:25000
+INFO    21:02:42:006 137100; [vocs] report bitrate: a/v/t: 50/400/450
+INFO    21:02:42:006 137100; [vocs] creating channel with 47.244.4.122:25000, ts 1575378162007.......
+INFO    21:02:42:006 137100; [ap/u] **responsed from 54.223.118.211:1080, TDS(64).
+INFO    21:02:42:006 137100; [ap] onAPTdsRes success with config: {}, size: 0
+INFO    21:02:42:006 137100; [rlbs/u] responsed from 52.80.192.229:9700 with servers 121.22.238.135:8913
+INFO    21:02:42:006 137100; [rs] updateServers 121.22.238.135:8913, priority 3
+INFO    21:02:42:006 137100; [rs] updateServers 121.22.238.151:8913, priority 3
+INFO    21:02:42:006 137100; [rs] updateServers 27.36.224.88:8913, priority 3
+INFO    21:02:42:006 137100; [rs] dns parse result code: 11003, servers size: 0
+INFO    21:02:42:006 137100; [ap] onParsedDns with err 11003, 
+INFO    21:02:42:006 137100; [ap/u] **responsed from 47.244.4.122:8000, TDS(64).
+INFO    21:02:42:159 137100; [vocs/u] **responsed from 47.244.4.122:25000, 3 vos, elapsed 303, server ts 1575378161592, wan ip 58.19.1.66
+INFO    21:02:42:159 137100; [vos] added server: 125.45.14.19:4011
+INFO    21:02:42:159 137100; [vos] added server: 61.54.25.52:4003
+INFO    21:02:42:159 137100; [vos] added server: 222.138.231.20:4002
+INFO    21:02:42:159 137100; [ch0] vos initialized
+INFO    21:02:42:159 137100; [vos] selected: 222.138.231.20:4002
+ERROR   21:02:42:160 137100; [ch0] login strategy=2
+INFO    21:02:42:160 137100; [ds]: ver 1 ds '{"streamType":1,"clientRole":1}'
+INFO    21:02:42:160 137100; [ch0] Login VOS (proto:12, cid:3586057738, uid:100546, ts:1575378162160, ticket size:124 detail size: 321 ds:1 stream:+A-V) 2: 222.138.231.20:4002
+INFO    21:02:42:160 137100; [vocs/u] **responsed from 106.14.12.130:1080, 3 vos, elapsed 304, server ts 1575378161586, wan ip 58.19.1.66
+INFO    21:02:42:160 137100; [vos] added server: 61.54.25.51:4008
+INFO    21:02:42:160 137100; [vos] added server: 125.45.14.22:4008
+INFO    21:02:42:160 137100; [vos] added server: 222.138.231.23:4009
+INFO    21:02:42:172 137100; [ap/u] **responsed from 50.17.126.121:25000, TDS(64).
+INFO    21:02:42:217 137100; [vocs/u] **responsed from 52.194.158.59:8000, 3 vos, elapsed 361, server ts 1575378161618, wan ip 58.19.1.66
+INFO    21:02:42:217 137100; [vos] added server: 125.45.14.3:4003
+INFO    21:02:42:217 137100; [vos] added server: 125.45.14.18:4014
+INFO    21:02:42:217 137100; [vos] added server: 61.54.25.50:4002
+INFO    21:02:42:231 137100; [ch0] **VOS response to login request (res 0 elapsed 375, server ts 1575378161820, s-c:-411) from 222.138.231.20:4002, and current dest server 222.138.231.20:4002
+INFO    21:02:42:232 137100; updateActiveVosList: ["222.138.231.20:4002"]
+INFO    21:02:42:232 137100; [cm] connection state changed from 2 to 3
+INFO    21:02:42:232 137100; [che] start call begins
+INFO    21:02:42:232 137100; Update settings: mode 3, rec_source -10, rec_fs 16000, builtin aec 0
+INFO    21:02:42:232 137100; Set Application Mode in RTC Engine to No. 4 UC 0
+INFO    21:02:42:233 137100; SetCodec by type : No. 77
+INFO    21:02:42:234 137100; [che] start call returns 0, elapsed 2
+INFO    21:02:42:234 137100; [time] process EngineStartCall takes 2
+INFO    21:02:42:234 137100; setNetEQMinimumPlayoutDelay delay(0)
+INFO    21:02:42:234 137100; join channel success: cname 'd961c0bc22e9efe7caa5067cf2a6685d' uid 100546 elapsed 378
+INFO    21:02:42:234 137100; CacheManager: save cache to storage elapsed 0
+INFO    21:02:42:236  13852; [WIN_CORE] Audio Engine's current mix format for loopback shared-mode streams:
+INFO    21:02:42:236  13852; [WIN_CORE] wFormatTag     : 0xFFFE (65534)
+INFO    21:02:42:236  13852; [WIN_CORE] nChannels      : 2
+INFO    21:02:42:236  13852; [WIN_CORE] nSamplesPerSec : 48000
+INFO    21:02:42:236  13852; [WIN_CORE] wBitsPerSample : 32
+INFO    21:02:42:242  13852; [WIN_CORE] IsFormatSupported : nChannels=2, nSamplesPerSec=48000 is supported
+INFO    21:02:42:242  13852; [WIN_CORE] VoE selected this loopback format:
+INFO    21:02:42:242  13852; [WIN_CORE] wFormatTag        : 0x1 (1)
+INFO    21:02:42:242  13852; [WIN_CORE] nChannels         : 2
+INFO    21:02:42:242  13852; [WIN_CORE] nSamplesPerSec    : 48000
+INFO    21:02:42:242  13852; [WIN_CORE] wBitsPerSample    : 16
+INFO    21:02:42:251 137100; [ch0] rtt: 17
+INFO    21:02:42:258  13852; [WIN_CORE] loopback Initialize time 0  hr 0
+INFO    21:02:42:258  13852; [WIN_CORE] IAudioClient::GetBufferSize() => 1056 (<=> 4224 bytes)
+INFO    21:02:42:258  13852; [WIN_CORE] loopback capture side is now initialized
+WARN    21:02:42:258 136292; [WIN_CORE] Loopback failed to boost rec-thread using MMCSS
+INFO    21:02:42:258 136292; [WIN_CORE] loopback [CAPT] size of buffer       : 1056
+INFO    21:02:42:258 136292; [WIN_CORE] loopback [CAPT] size of sync buffer  : 8448 [bytes]
+INFO    21:02:42:259  13852; [WIN_CORE] loopback audio stream has now started...
+INFO    21:02:42:259  13852; setLoopbackRecording, enabled: true, delay 180, aec 1 
+INFO    21:02:42:269  13852; [WIN_CORE] Audio Engine's current mix format for rendering shared-mode streams:
+INFO    21:02:42:269  13852; [WIN_CORE] wFormatTag     : 0xFFFE (65534)
+INFO    21:02:42:269  13852; [WIN_CORE] nChannels      : 2
+INFO    21:02:42:269  13852; [WIN_CORE] nSamplesPerSec : 48000
+INFO    21:02:42:269  13852; [WIN_CORE] wBitsPerSample : 32
+INFO    21:02:42:273  13852; [WIN_CORE] IsFormatSupported : nChannels=2, nSamplesPerSec=48000 is supported
+INFO    21:02:42:273  13852; [WIN_CORE] VoE selected this rendering format:
+INFO    21:02:42:273  13852; [WIN_CORE] wFormatTag         : 0x1 (1)
+INFO    21:02:42:273  13852; [WIN_CORE] nChannels          : 2
+INFO    21:02:42:273  13852; [WIN_CORE] nSamplesPerSec     : 48000
+INFO    21:02:42:273  13852; [WIN_CORE] wBitsPerSample     : 16
+INFO    21:02:42:295  13852; [WIN_CORE] render Initialize time 0  hr 0
+INFO    21:02:42:295  13852; [WIN_CORE] IAudioClient::GetBufferSize() => 1056 (<=> 4224 bytes)
+INFO    21:02:42:296  13852; [WIN_CORE] render side is now initialized
+INFO    21:02:42:298 137096; [WIN_CORE] render thread is now registered with MMCSS (taskIndex=1365)
+INFO    21:02:42:298 137096; [WIN_CORE] [REND] size of buffer       : 1056
+INFO    21:02:42:298 137096; [WIN_CORE] [REND] max stream latency   : 0 (0.00 ms)
+INFO    21:02:42:299 137096; [WIN_CORE] [REND] device period        : 100000 (10.00 ms)
+INFO    21:02:42:299 137096; [WIN_CORE] [REND] initial delay        : 30
+INFO    21:02:42:299 137096; [WIN_CORE] [REND] endpointBufferSizeMS : 22.00
+INFO    21:02:42:300  13852; [WIN_CORE] rendering audio stream has now started...
+INFO    21:02:42:304  13852; output: enabled=0
+INFO    21:02:42:304  13852; output: volume=66
+INFO    21:02:42:304  13852; => OnWindowsCurrentDeviceChange() : kPlayoutDevice attributes 0
+INFO    21:02:42:304  13852; StartPlayout complete
+INFO    21:02:42:304  13852; StartSend
+INFO    21:02:42:308  13852; [WIN_CORE] Audio Engine's current mix format for capturing shared-mode streams:
+INFO    21:02:42:308  13852; [WIN_CORE] wFormatTag     : 0xFFFE (65534)
+INFO    21:02:42:308  13852; [WIN_CORE] nChannels      : 2
+INFO    21:02:42:308  13852; [WIN_CORE] nSamplesPerSec : 48000
+INFO    21:02:42:308  13852; [WIN_CORE] wBitsPerSample : 32
+INFO    21:02:42:308  13852; [WIN_CORE] IsFormatSupported : nChannels=2, nSamplesPerSec=48000 is supported
+INFO    21:02:42:308  13852; [WIN_CORE] VoE selected this capturing format:
+INFO    21:02:42:308  13852; [WIN_CORE] wFormatTag        : 0x1 (1)
+INFO    21:02:42:308  13852; [WIN_CORE] nChannels         : 2
+INFO    21:02:42:308  13852; [WIN_CORE] nSamplesPerSec    : 48000
+INFO    21:02:42:308  13852; [WIN_CORE] wBitsPerSample    : 16
+INFO    21:02:42:358  13852; [WIN_CORE] capture Initialize time 0  hr 0
+INFO    21:02:42:358  13852; [WIN_CORE] IAudioClient::GetBufferSize() => 1056 (<=> 4224 bytes)
+INFO    21:02:42:358  13852; [WIN_CORE] capture side is now initialized
+INFO    21:02:42:358 121128; [WIN_CORE] [CAPT] size of buffer       : 1056
+INFO    21:02:42:358 121128; [WIN_CORE] [CAPT] size of sync buffer  : 8448 [bytes]
+INFO    21:02:42:358 121128; [WIN_CORE] [CAPT] max stream latency   : 0 (0.00 ms)
+INFO    21:02:42:359 121128; [WIN_CORE] [CAPT] device period        : 100000 (10.00 ms)
+INFO    21:02:42:359 121128; [WIN_CORE] [CAPT] extraDelayMS         : 10.00
+INFO    21:02:42:359 121128; [WIN_CORE] [CAPT] endpointBufferSizeMS : 22.00
+INFO    21:02:42:359  13852; [WIN_CORE] capture audio stream has now started...
+INFO    21:02:42:362  13852; output: enabled=0
+INFO    21:02:42:362  13852; => OnWindowsCurrentDeviceChange() : kRecordingDevice micBoost 503319050 max: 30.0 min:  0.0 step: 10.0 level: 10.0 volume:240
+INFO    21:02:42:362  13852; StartRecording complete
+INFO    21:02:42:366  13852; Application Config module:  Route 0, NS on, AEC on, AGC on, BSS off, HC off
+INFO    21:02:42:366  13852; MID = 0, Routing = 0
+INFO    21:02:42:366  13852; output: kWindowsCoreAudio
+INFO    21:02:42:366  13852;   Output: audioLayer=2
+INFO    21:02:42:366  13852; output: volume=255
+INFO    21:02:42:366  13852; output: enabled=0
+INFO    21:02:42:366  13852; output: enabled=0
+INFO    21:02:42:367  13852; output: enabled=0
+INFO    21:02:42:390 137100; TRACER: onFirstLocalAudioFrame codec 77 elapsed 534
+INFO    21:02:46:842 137100; [rs] **report stats: seq: 35, report list size 1, tx/rx: 6078/1632, cache size: 0
+INFO    21:02:46:842 137100; [rs] report server1: 121.22.238.135:8913
+INFO    21:02:48:318 137096; Audio statistics - play count: playout count = 200  signal level: far_in = 0
+INFO    21:02:48:391 121128; Audio statistics - rec count: record count = 201 signal level: near_in = 74, near_out = 70 encode_in = 74
+INFO    21:02:56:850 137100; [ap] dns parse retry time: 1
+INFO    21:02:56:855 137100; [rs] dns parse retry time: 1
+INFO    21:02:56:855 137100; [ap] onParsedDns with err 11003, 
+INFO    21:02:56:857 137100; [rs] dns parse result code: 11003, servers size: 0
+INFO    21:03:02:327 137096; Audio statistics - play count: playout count = 601  signal level: far_in = 0
+INFO    21:03:02:402 121128; Audio statistics - rec count: record count = 600 signal level: near_in = 70, near_out = 67 encode_in = 70
+INFO    21:03:11:848 137100; [ap] dns parse retry time: 2
+INFO    21:03:11:854 137100; [rs] dns parse retry time: 2
+INFO    21:03:11:854 137100; [ap] onParsedDns with err 11003, 
+INFO    21:03:11:855 137100; [rs] dns parse result code: 11003, servers size: 0
+INFO    21:03:15:842 137100; **CALL STATS: duration 31s cpu app/total 2.86/57.55 battery 255 tx/rx: 84/1 kbps 325.262K/9.73K bytes
+INFO    21:03:20:336 137096; Audio statistics - play count: playout count = 601  signal level: far_in = 0
+INFO    21:03:20:410 121128; Audio statistics - rec count: record count = 600 signal level: near_in = 80, near_out = 80 encode_in = 70
+INFO    21:03:20:843 137100; [rs] **report stats: seq: 45, report list size 0, tx/rx: 8239/2160, cache size: 0
+INFO    21:03:20:843 137100; [rs] report server1: 121.22.238.135:8913
+INFO    21:03:26:846 137100; [ap] dns parse retry time: 3
+INFO    21:03:26:851 137100; [rs] dns parse retry time: 3
+INFO    21:03:26:851 137100; [ap] onParsedDns with err 11003, 
+INFO    21:03:26:851 137100; [rs] dns parse result code: 11003, servers size: 0
+INFO    21:03:38:347 137096; Audio statistics - play count: playout count = 601  signal level: far_in = 0
+INFO    21:03:38:420 121128; Audio statistics - rec count: record count = 600 signal level: near_in = 80, near_out = 79 encode_in = 80
+INFO    21:03:47:842 137100; **CALL STATS: duration 1m3s cpu app/total 1.95/53.25 battery 255 tx/rx: 82/0 kbps 648.398K/13.500K bytes
+INFO    21:03:56:356 137096; Audio statistics - play count: playout count = 601  signal level: far_in = 0
+INFO    21:03:56:440 121128; Audio statistics - rec count: record count = 600 signal level: near_in = 81, near_out = 80 encode_in = 81
+INFO    21:03:56:842 137100; [rs] **report stats: seq: 52, report list size 0, tx/rx: 9699/2496, cache size: 0
+INFO    21:03:56:842 137100; [rs] report server1: 121.22.238.135:8913
+INFO    21:04:14:357 137096; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    21:04:14:450 121128; Audio statistics - rec count: record count = 600 signal level: near_in = 68, near_out = 66 encode_in = 68
+INFO    21:04:19:841 137100; **CALL STATS: duration 1m35s cpu app/total 1.95/26.30 battery 255 tx/rx: 82/1 kbps 971.797K/18.114K bytes
+INFO    21:04:32:357 137096; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    21:04:32:461 121128; Audio statistics - rec count: record count = 600 signal level: near_in = 66, near_out = 63 encode_in = 66
+INFO    21:04:34:843 137100; [rs] **report stats: seq: 57, report list size 0, tx/rx: 10604/2736, cache size: 0
+INFO    21:04:34:843 137100; [rs] report server1: 121.22.238.135:8913
+INFO    21:04:49:842 137100; **CALL STATS: duration 2m5s cpu app/total 1.95/48.43 battery 255 tx/rx: 81/1 kbps 1.250M/22.536K bytes
+INFO    21:04:50:367 137096; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    21:04:50:469 121128; Audio statistics - rec count: record count = 600 signal level: near_in = 72, near_out = 71 encode_in = 72
+INFO    21:05:08:377 137096; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    21:05:08:480 121128; Audio statistics - rec count: record count = 601 signal level: near_in = 70, near_out = 65 encode_in = 70
+INFO    21:05:12:843 137100; [rs] **report stats: seq: 62, report list size 0, tx/rx: 11707/2976, cache size: 0
+INFO    21:05:12:843 137100; [rs] report server1: 121.22.238.135:8913
+INFO    21:05:21:841 137100; **CALL STATS: duration 2m37s cpu app/total 1.69/42.44 battery 255 tx/rx: 81/0 kbps 1.573M/26.958K bytes
+INFO    21:05:26:386 137096; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    21:05:26:491 121128; Audio statistics - rec count: record count = 600 signal level: near_in = 66, near_out = 56 encode_in = 66
+INFO    21:05:44:397 137096; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    21:05:44:499 121128; Audio statistics - rec count: record count = 600 signal level: near_in = 72, near_out = 70 encode_in = 72
+INFO    21:05:48:842 137100; [rs] **report stats: seq: 67, report list size 0, tx/rx: 12840/3216, cache size: 0
+INFO    21:05:48:842 137100; [rs] report server1: 121.22.238.135:8913
+INFO    21:05:53:841 137100; **CALL STATS: duration 3m9s cpu app/total 2.8/31.11 battery 255 tx/rx: 84/1 kbps 1.897M/31.649K bytes
+INFO    21:06:02:406 137096; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    21:06:02:510 121128; Audio statistics - rec count: record count = 600 signal level: near_in = 70, near_out = 68 encode_in = 70
+INFO    21:06:20:417 137096; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    21:06:20:529 121128; Audio statistics - rec count: record count = 601 signal level: near_in = 87, near_out = 87 encode_in = 87
+INFO    21:06:23:841 137100; **CALL STATS: duration 3m39s cpu app/total 1.81/27.8 battery 255 tx/rx: 83/1 kbps 2.175M/35.903K bytes
+INFO    21:06:24:842 137100; [rs] **report stats: seq: 72, report list size 0, tx/rx: 13721/3456, cache size: 0
+INFO    21:06:24:842 137100; [rs] report server1: 121.22.238.135:8913
+INFO    21:06:38:427 137096; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    21:06:38:551 121128; Audio statistics - rec count: record count = 600 signal level: near_in = 66, near_out = 57 encode_in = 66
+INFO    21:06:55:841 137100; **CALL STATS: duration 4m11s cpu app/total 1.43/47.91 battery 255 tx/rx: 82/1 kbps 2.498M/40.469K bytes
+INFO    21:06:56:437 137096; Audio statistics - play count: playout count = 601  signal level: far_in = 0
+INFO    21:06:56:582 121128; Audio statistics - rec count: record count = 601 signal level: near_in = 110, near_out = 105 encode_in = 69
+INFO    21:06:56:841 137100; [rs] **report stats: seq: 76, report list size 0, tx/rx: 14675/3648, cache size: 0
+INFO    21:06:56:841 137100; [rs] report server1: 121.22.238.135:8913
+INFO    21:07:14:446 137096; Audio statistics - play count: playout count = 601  signal level: far_in = 0
+INFO    21:07:14:588 121128; Audio statistics - rec count: record count = 600 signal level: near_in = 103, near_out = 103 encode_in = 66
+INFO    21:07:25:842 137100; **CALL STATS: duration 4m41s cpu app/total 1.82/27.47 battery 255 tx/rx: 81/1 kbps 2.801M/44.723K bytes
+INFO    21:07:32:446 137096; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    21:07:32:599 121128; Audio statistics - rec count: record count = 600 signal level: near_in = 104, near_out = 103 encode_in = 68
+INFO    21:07:32:842 137100; [rs] **report stats: seq: 81, report list size 0, tx/rx: 15606/3888, cache size: 0
+INFO    21:07:32:842 137100; [rs] report server1: 121.22.238.135:8913
+INFO    21:07:50:456 137096; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    21:07:50:599 121128; Audio statistics - rec count: record count = 600 signal level: near_in = 107, near_out = 104 encode_in = 68
+Local Date: 12�� 03 2019 Local Time: 21:07:58
+Build info: Nov 11 2019 19:43:50 r
+
+INFO    21:07:58:848 136404; [rp] {"rtc.channel_profile":1}
+INFO    21:07:58:848 136404; [rp] {"rtc.client_role":1}
+INFO    21:07:58:848 136404; set client role to broadcaster
+INFO    21:07:58:848 136404; [rp] {"rtc.video.enabled":false}
+INFO    21:07:58:848 136404; API call to disable video
+INFO    21:07:58:848 136404; [rp] {"che.audio.profile":{"config":0,"scenario":1}}
+INFO    21:07:58:848 136404; Audio Profile is set to: (config = 0, scenario = 1)
+INFO    21:07:58:848 136404; [rp] {"rtc.audio.enabled":true,"che.audio.enable.recording.device":true}
+INFO    21:07:58:848 136404; [rp] {"rtc.video.web_h264_interop_enable":true,"che.video.web_h264_interop_enable":true}
+INFO    21:07:58:848 136404; [rp] {"che.audio.morph.voice_changer":0}
+INFO    21:07:58:848 136404; [rp] {"che.audio.loopback.recording":true}
+INFO    21:07:58:848 136404; doStopLastmileProbeTest
+INFO    21:07:58:849 136404; ***CALL BEGIN: appid:'6a****************************ae' cname:'d961c0bc22e9efe7caa5067cf2a6685d' info:'Electron' sid:'E3DDC1F3201C452297864A3C4A251FF6'
+INFO    21:07:58:849 136404; addRef of media engine, ref=1
+INFO    21:07:58:851 136404; [che] create chat engine, ctx:00000000
+INFO    21:07:58:851 136404; [MYDEBUG] large group call false
+INFO    21:07:58:851 136404; ChatEngineParameterHelper::applyMediaEngineMode: 
+INFO    21:07:58:851 136404; applyMediaEngineMode(): Hardware encoding false Hardware decoding false
+INFO    21:07:58:851 137152; Thread with name:AudioAsyncTask started 
+INFO    21:07:58:851 136404; engine git commit version:9899c5e51 and branch:(HEAD
+INFO    21:07:58:870 136404; output: kPlatformDefaultAudio
+INFO    21:07:58:871 136404; [WIN_CORE] +++++++Code block begins for checking CoreAudio properties++++++
+INFO    21:07:58:877 136404; AgoraRTC::AudioDeviceNotificationWindows::AudioDeviceNotificationWindows created
+INFO    21:07:58:888 136404; [WIN_CORE] ===================Render Devices Enumeration===================
+INFO    21:07:58:888 136404; [WIN_CORE] #rendering endpoint devices (counting all): 3
+INFO    21:07:58:888 136404; [WIN_CORE] ++Endpoint  0:
+INFO    21:07:58:888 136404; [WIN_CORE] ID string    : {0.0.0.00000000}.{1518cfc6-a68f-46dd-ad30-1874fdda99cb}
+INFO    21:07:58:889 136404; [WIN_CORE] friendly name: "VG2453 Series (英特尔(R) 显示器音频)"
+INFO    21:07:58:889 136404; [WIN_CORE] state (0x1)  : *ACTIVE*
+INFO    21:07:58:889 136404; [WIN_CORE] ++Endpoint  1:
+INFO    21:07:58:889 136404; [WIN_CORE] ID string    : {0.0.0.00000000}.{798f7c70-adea-4e09-934d-4a191726db61}
+INFO    21:07:58:889 136404; [WIN_CORE] friendly name: "扬声器 (Realtek High Definition Audio)"
+INFO    21:07:58:889 136404; [WIN_CORE] state (0x1)  : *ACTIVE*
+INFO    21:07:58:889 136404; [WIN_CORE] ++Endpoint  2:
+INFO    21:07:58:889 136404; [WIN_CORE] ID string    : {0.0.0.00000000}.{f9dce68b-6638-4a42-ba3c-e2b8aaf56d05}
+INFO    21:07:58:889 136404; [WIN_CORE] friendly name: "Realtek Digital Output (Realtek High Definition Audio)"
+INFO    21:07:58:889 136404; [WIN_CORE] state (0x1)  : *ACTIVE*
+INFO    21:07:58:889 136404; [WIN_CORE] =========================EnumDeviceEnd==========================
+INFO    21:07:58:890 136404; [WIN_CORE] ==================Capture Devices Enumeration===================
+INFO    21:07:58:890 136404; [WIN_CORE] #capturing endpoint devices (counting all): 3
+INFO    21:07:58:890 136404; [WIN_CORE] ++Endpoint  0:
+INFO    21:07:58:890 136404; [WIN_CORE] ID string    : {0.0.1.00000000}.{033bd0fb-2dba-42fd-94fc-4cdc10f6c1d2}
+INFO    21:07:58:890 136404; [WIN_CORE] friendly name: "线路输入 (Realtek High Definition Audio)"
+INFO    21:07:58:890 136404; [WIN_CORE] state (0x8)  : UNPLUGGED
+INFO    21:07:58:890 136404; [WIN_CORE] ++Endpoint  1:
+INFO    21:07:58:890 136404; [WIN_CORE] ID string    : {0.0.1.00000000}.{3eee6b8c-4f00-438a-96e5-4db32dce00f7}
+INFO    21:07:58:890 136404; [WIN_CORE] friendly name: "立体声混音 (Realtek High Definition Audio)"
+INFO    21:07:58:891 136404; [WIN_CORE] state (0x2)  : DISABLED
+INFO    21:07:58:891 136404; [WIN_CORE] ++Endpoint  2:
+INFO    21:07:58:891 136404; [WIN_CORE] ID string    : {0.0.1.00000000}.{61f26d7b-6f33-4fa9-8e2c-ad56bd03d5a8}
+INFO    21:07:58:891 136404; [WIN_CORE] friendly name: "麦克风 (Realtek High Definition Audio)"
+INFO    21:07:58:891 136404; [WIN_CORE] state (0x1)  : *ACTIVE*
+INFO    21:07:58:891 136404; [WIN_CORE] =========================EnumDeviceEnd==========================
+INFO    21:07:58:894 136404; [WIN_CORE] *** Windows Core Audio is supported ***
+INFO    21:07:58:894 136404; [WIN_CORE] ++++++++Code block ends for checking CoreAudio properties++++++++
+INFO    21:07:58:899 136404; audio jitterbuffer new smooth
+INFO    21:07:58:902 136404;   OS info: Microsoft  (build 17134), 64-bit
+INFO    21:07:58:905 136404; [WIN_CORE] Set playout device on Windows by Windows Device Type (-2): friendly name: "扬声器 (Realtek High Definition Audio)"
+INFO    21:07:58:919 136404; [WIN_CORE] Set recording device on Windows by Windows Device Type (-2): friendly name: "麦克风 (Realtek High Definition Audio)"
+INFO    21:07:58:922 136404; StereoPlayoutIsAvailable(), output: available=1
+INFO    21:07:58:922 136404; StereoRecordingIsAvailable(), output: available=1
+INFO    21:07:58:922 136404; RegisterReceiveCodec 13.
+INFO    21:07:58:922 136404; RegisterReceiveCodec 98.
+INFO    21:07:58:922 136404; RegisterReceiveCodec 99.
+INFO    21:07:58:922 136404; RegisterReceiveCodec 100.
+INFO    21:07:58:922 136404; RegisterReceiveCodec 127.
+INFO    21:07:58:922 135884; Thread with name:EngineMonitorThread started 
+INFO    21:07:58:922 136404; RegisterVolumeNotify
+INFO    21:07:58:922 136404; setMuteStatus, muted: Off
+INFO    21:07:58:922 136404; setMuteOutput, muted: false
+INFO    21:07:58:922 136404; Audio Engine Init success
+INFO    21:07:58:922 136404; [che] chat engine initialized
+INFO    21:07:58:923 136404; [time] process EngineInitialize takes 73
+INFO    21:07:58:927 136404; [tactics] version:2.8.2.121 maxBitrate:400 640X360 15 fps needHandle:1
+INFO    21:07:58:927 136404; [tactics] config json version:20150101-0000 duallinkd:true poor:u
+INFO    21:07:58:927 136404; [tactics] parse config for beckon error for tactics size:15
+INFO    21:07:58:941 136404; [vocs] vocs initialized
+ERROR   21:07:58:946 136404; [cm] session 'F280FB91959047B4A6A2174F292F2056' was not terminated properly
+INFO    21:07:58:946 136404; CacheManager: save cache to storage elapsed 0
+INFO    21:07:58:946 136404; [cm] emit join channel signal, size=4
+INFO    21:07:58:946 136404; [cm] connection state changed from 1 to 2
+INFO    21:07:58:947 136404; [tactics] version:2.8.2.121 maxBitrate:400 640X360 15 fps needHandle:1
+INFO    21:07:58:947 136404; [vocs] lookup channel...
+INFO    21:07:58:947 136404; [vocs] selected: 52.194.158.59:8000
+INFO    21:07:58:947 136404; connecting to 52.194.158.59:8000 handle 1c7b5210, 2396
+INFO    21:07:58:947 136404; [vocs] report bitrate: a/v/t: 50/400/450
+INFO    21:07:58:947 136404; [vocs] creating channel with 52.194.158.59:8000, ts 1575378478947.......
+INFO    21:07:58:947 136404; [vocs] selected: 106.14.12.130:1080
+INFO    21:07:58:947 136404; [vocs] report bitrate: a/v/t: 50/400/450
+INFO    21:07:58:947 136404; [vocs] creating channel with 106.14.12.130:1080, ts 1575378478947.......
+INFO    21:07:58:947 136404; [vocs] selected: 47.244.4.122:25000
+INFO    21:07:58:947 136404; [vocs] report bitrate: a/v/t: 50/400/450
+INFO    21:07:58:947 136404; [vocs] creating channel with 47.244.4.122:25000, ts 1575378478947.......
+INFO    21:07:58:947 136404; [ap/u] **responsed from 54.223.118.211:1080, TDS(64).
+INFO    21:07:58:947 136404; [ap] onAPTdsRes success with config: {}, size: 0
+INFO    21:07:58:948 136404; [rlbs/u] responsed from 52.80.192.229:9700 with servers 218.60.5.85:8913
+INFO    21:07:58:948 136404; [rs] updateServers 218.60.5.85:8913, priority 3
+INFO    21:07:58:948 136404; [rs] updateServers 59.83.214.104:8913, priority 3
+INFO    21:07:58:948 136404; [rs] updateServers 218.60.5.103:8913, priority 3
+INFO    21:07:58:948 136404; [ap] onParsedDns with err 11003, 
+INFO    21:07:58:948 136404; [rs] dns parse result code: 11003, servers size: 0
+INFO    21:07:58:948 136404; [ap/u] **responsed from 47.244.4.122:8000, TDS(64).
+INFO    21:07:58:992 136404; [vocs/u] **responsed from 106.14.12.130:1080, 3 vos, elapsed 204, server ts 1575378478507, wan ip 58.19.1.66
+INFO    21:07:58:993 136404; [vos] added server: 222.138.231.20:4002
+INFO    21:07:58:993 136404; [vos] added server: 211.91.242.32:4006
+INFO    21:07:58:995 136404; [ch0] vos initialized
+INFO    21:07:58:995 136404; [vos] selected: 211.91.242.32:4006
+ERROR   21:07:58:995 136404; [ch0] login strategy=2
+INFO    21:07:58:995 136404; [ds]: ver 1 ds '{"streamType":1,"clientRole":1}'
+INFO    21:07:58:995 136404; [ch0] Login VOS (proto:12, cid:3586057738, uid:100546, ts:1575378478996, ticket size:124 detail size: 321 ds:1 stream:+A-V) 2: 211.91.242.32:4006
+INFO    21:07:59:008 136404; [vocs/u] **responsed from 47.244.4.122:25000, 3 vos, elapsed 220, server ts 1575378478530, wan ip 58.19.1.66
+INFO    21:07:59:008 136404; [vos] added server: 125.45.14.22:4007
+INFO    21:07:59:008 136404; [vos] added server: 125.45.14.4:4013
+INFO    21:07:59:056 136404; [ch0] **VOS response to login request (res 0 elapsed 269, server ts 1575378478529, s-c:-528) from 211.91.242.32:4006, and current dest server 211.91.242.32:4006
+INFO    21:07:59:057 136404; updateActiveVosList: ["211.91.242.32:4006"]
+INFO    21:07:59:057 136404; [cm] connection state changed from 2 to 3
+INFO    21:07:59:057 136404; [che] start call begins
+INFO    21:07:59:057 136404; Update settings: mode 3, rec_source -10, rec_fs 16000, builtin aec 0
+INFO    21:07:59:057 136404; Set Application Mode in RTC Engine to No. 4 UC 0
+INFO    21:07:59:058 136404; SetCodec by type : No. 77
+INFO    21:07:59:064 136404; [che] start call returns 0, elapsed 7
+INFO    21:07:59:064 136404; [time] process EngineStartCall takes 7
+INFO    21:07:59:064 136404; setNetEQMinimumPlayoutDelay delay(0)
+INFO    21:07:59:064 136404; join channel success: cname 'd961c0bc22e9efe7caa5067cf2a6685d' uid 100546 elapsed 277
+INFO    21:07:59:065 136404; CacheManager: save cache to storage elapsed 0
+INFO    21:07:59:066 137152; [WIN_CORE] Audio Engine's current mix format for loopback shared-mode streams:
+INFO    21:07:59:066 137152; [WIN_CORE] wFormatTag     : 0xFFFE (65534)
+INFO    21:07:59:066 137152; [WIN_CORE] nChannels      : 2
+INFO    21:07:59:066 137152; [WIN_CORE] nSamplesPerSec : 48000
+INFO    21:07:59:066 137152; [WIN_CORE] wBitsPerSample : 32
+INFO    21:07:59:073 137152; [WIN_CORE] IsFormatSupported : nChannels=2, nSamplesPerSec=48000 is supported
+INFO    21:07:59:073 137152; [WIN_CORE] VoE selected this loopback format:
+INFO    21:07:59:073 137152; [WIN_CORE] wFormatTag        : 0x1 (1)
+INFO    21:07:59:073 137152; [WIN_CORE] nChannels         : 2
+INFO    21:07:59:073 137152; [WIN_CORE] nSamplesPerSec    : 48000
+INFO    21:07:59:073 137152; [WIN_CORE] wBitsPerSample    : 16
+INFO    21:07:59:076 136404; [ch0] rtt: 11
+INFO    21:07:59:082 137152; [WIN_CORE] loopback Initialize time 0  hr 0
+INFO    21:07:59:082 137152; [WIN_CORE] IAudioClient::GetBufferSize() => 1056 (<=> 4224 bytes)
+INFO    21:07:59:082 137152; [WIN_CORE] loopback capture side is now initialized
+WARN    21:07:59:084 136900; [WIN_CORE] Loopback failed to boost rec-thread using MMCSS
+INFO    21:07:59:084 136900; [WIN_CORE] loopback [CAPT] size of buffer       : 1056
+INFO    21:07:59:084 136900; [WIN_CORE] loopback [CAPT] size of sync buffer  : 8448 [bytes]
+INFO    21:07:59:084 137152; [WIN_CORE] loopback audio stream has now started...
+INFO    21:07:59:084 137152; setLoopbackRecording, enabled: true, delay 180, aec 1 
+INFO    21:07:59:089 137152; [WIN_CORE] Audio Engine's current mix format for rendering shared-mode streams:
+INFO    21:07:59:089 137152; [WIN_CORE] wFormatTag     : 0xFFFE (65534)
+INFO    21:07:59:089 137152; [WIN_CORE] nChannels      : 2
+INFO    21:07:59:089 137152; [WIN_CORE] nSamplesPerSec : 48000
+INFO    21:07:59:089 137152; [WIN_CORE] wBitsPerSample : 32
+INFO    21:07:59:092 136404; [ap/u] **responsed from 50.17.126.121:25000, TDS(64).
+INFO    21:07:59:094 137152; [WIN_CORE] IsFormatSupported : nChannels=2, nSamplesPerSec=48000 is supported
+INFO    21:07:59:094 137152; [WIN_CORE] VoE selected this rendering format:
+INFO    21:07:59:094 137152; [WIN_CORE] wFormatTag         : 0x1 (1)
+INFO    21:07:59:094 137152; [WIN_CORE] nChannels          : 2
+INFO    21:07:59:094 137152; [WIN_CORE] nSamplesPerSec     : 48000
+INFO    21:07:59:094 137152; [WIN_CORE] wBitsPerSample     : 16
+INFO    21:07:59:105 137152; [WIN_CORE] render Initialize time 0  hr 0
+INFO    21:07:59:105 137152; [WIN_CORE] IAudioClient::GetBufferSize() => 1056 (<=> 4224 bytes)
+INFO    21:07:59:105 137152; [WIN_CORE] render side is now initialized
+INFO    21:07:59:108 135236; [WIN_CORE] render thread is now registered with MMCSS (taskIndex=1376)
+INFO    21:07:59:108 135236; [WIN_CORE] [REND] size of buffer       : 1056
+INFO    21:07:59:108 135236; [WIN_CORE] [REND] max stream latency   : 0 (0.00 ms)
+INFO    21:07:59:108 135236; [WIN_CORE] [REND] device period        : 100000 (10.00 ms)
+INFO    21:07:59:108 135236; [WIN_CORE] [REND] initial delay        : 30
+INFO    21:07:59:108 135236; [WIN_CORE] [REND] endpointBufferSizeMS : 22.00
+INFO    21:07:59:108 137152; [WIN_CORE] rendering audio stream has now started...
+INFO    21:07:59:111 137152; output: enabled=0
+INFO    21:07:59:111 137152; output: volume=61
+INFO    21:07:59:111 137152; => OnWindowsCurrentDeviceChange() : kPlayoutDevice attributes 0
+INFO    21:07:59:111 137152; StartPlayout complete
+INFO    21:07:59:111 137152; StartSend
+INFO    21:07:59:114 137152; [WIN_CORE] Audio Engine's current mix format for capturing shared-mode streams:
+INFO    21:07:59:114 137152; [WIN_CORE] wFormatTag     : 0xFFFE (65534)
+INFO    21:07:59:114 137152; [WIN_CORE] nChannels      : 2
+INFO    21:07:59:114 137152; [WIN_CORE] nSamplesPerSec : 48000
+INFO    21:07:59:114 137152; [WIN_CORE] wBitsPerSample : 32
+INFO    21:07:59:114 137152; [WIN_CORE] IsFormatSupported : nChannels=2, nSamplesPerSec=48000 is supported
+INFO    21:07:59:114 137152; [WIN_CORE] VoE selected this capturing format:
+INFO    21:07:59:114 137152; [WIN_CORE] wFormatTag        : 0x1 (1)
+INFO    21:07:59:114 137152; [WIN_CORE] nChannels         : 2
+INFO    21:07:59:114 137152; [WIN_CORE] nSamplesPerSec    : 48000
+INFO    21:07:59:114 137152; [WIN_CORE] wBitsPerSample    : 16
+INFO    21:07:59:198 136404; [vocs/u] **responsed from 52.194.158.59:8000, 3 vos, elapsed 410, server ts 1575378478569, wan ip 58.19.1.66
+INFO    21:07:59:198 136404; [vos] added server: 125.45.14.4:4005
+INFO    21:07:59:198 136404; [vos] added server: 61.54.25.55:4006
+INFO    21:07:59:202 137152; [WIN_CORE] capture Initialize time 0  hr 0
+INFO    21:07:59:202 137152; [WIN_CORE] IAudioClient::GetBufferSize() => 1056 (<=> 4224 bytes)
+INFO    21:07:59:202 137152; [WIN_CORE] capture side is now initialized
+INFO    21:07:59:202 137412; [WIN_CORE] [CAPT] size of buffer       : 1056
+INFO    21:07:59:202 137412; [WIN_CORE] [CAPT] size of sync buffer  : 8448 [bytes]
+INFO    21:07:59:202 137412; [WIN_CORE] [CAPT] max stream latency   : 0 (0.00 ms)
+INFO    21:07:59:203 137412; [WIN_CORE] [CAPT] device period        : 100000 (10.00 ms)
+INFO    21:07:59:203 137412; [WIN_CORE] [CAPT] extraDelayMS         : 10.00
+INFO    21:07:59:203 137412; [WIN_CORE] [CAPT] endpointBufferSizeMS : 22.00
+INFO    21:07:59:204 137152; [WIN_CORE] capture audio stream has now started...
+INFO    21:07:59:205 137152; output: enabled=0
+INFO    21:07:59:205 137152; => OnWindowsCurrentDeviceChange() : kRecordingDevice micBoost 503319050 max: 30.0 min:  0.0 step: 10.0 level: 10.0 volume:240
+INFO    21:07:59:205 137152; StartRecording complete
+INFO    21:07:59:206 137152; Application Config module:  Route 0, NS on, AEC on, AGC on, BSS off, HC off
+INFO    21:07:59:206 137152; MID = 0, Routing = 0
+INFO    21:07:59:206 137152; output: kWindowsCoreAudio
+INFO    21:07:59:206 137152;   Output: audioLayer=2
+INFO    21:07:59:206 137152; output: volume=255
+INFO    21:07:59:206 137152; output: enabled=0
+INFO    21:07:59:206 137152; output: enabled=0
+INFO    21:07:59:207 137152; output: enabled=0
+INFO    21:07:59:234 136404; TRACER: onFirstLocalAudioFrame codec 77 elapsed 446
+INFO    21:08:03:784 136404; [rs] **report stats: seq: 35, report list size 2, tx/rx: 6073/1584, cache size: 0
+INFO    21:08:03:784 136404; [rs] report server1: 218.60.5.85:8913
+INFO    21:08:05:116 135236; Audio statistics - play count: playout count = 200  signal level: far_in = 0
+INFO    21:08:05:214 137412; Audio statistics - rec count: record count = 200 signal level: near_in = 107, near_out = 104 encode_in = 68
+INFO    21:08:13:788 136404; [rs] dns parse retry time: 1
+INFO    21:08:13:793 136404; [ap] dns parse retry time: 1
+INFO    21:08:13:794 136404; [rs] dns parse result code: 11003, servers size: 0
+INFO    21:08:13:795 136404; [ap] onParsedDns with err 11003, 
+INFO    21:08:19:116 135236; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    21:08:19:216 137412; Audio statistics - rec count: record count = 600 signal level: near_in = 107, near_out = 104 encode_in = 74
+INFO    21:08:28:788 136404; [ap] dns parse retry time: 2
+INFO    21:08:28:794 136404; [rs] dns parse retry time: 2
+INFO    21:08:28:794 136404; [ap] onParsedDns with err 11003, 
+INFO    21:08:28:796 136404; [rs] dns parse result code: 11003, servers size: 0
+INFO    21:08:32:783 136404; **CALL STATS: duration 31s cpu app/total 2.34/33.98 battery 255 tx/rx: 84/1 kbps 326.471K/9.73K bytes
+INFO    21:08:33:797 136404; [rs] **report stats: seq: 45, report list size 0, tx/rx: 8332/2160, cache size: 0
+INFO    21:08:33:797 136404; [rs] report server1: 218.60.5.85:8913
+INFO    21:08:37:116 135236; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    21:08:37:224 137412; Audio statistics - rec count: record count = 600 signal level: near_in = 109, near_out = 105 encode_in = 64
+INFO    21:08:43:789 136404; [ap] dns parse retry time: 3
+INFO    21:08:43:793 136404; [rs] dns parse retry time: 3
+INFO    21:08:43:794 136404; [ap] onParsedDns with err 11003, 
+INFO    21:08:43:803 136404; [rs] dns parse result code: 11003, servers size: 0
+INFO    21:08:55:126 135236; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    21:08:55:224 137412; Audio statistics - rec count: record count = 600 signal level: near_in = 109, near_out = 106 encode_in = 67
+INFO    21:09:04:783 136404; **CALL STATS: duration 1m3s cpu app/total 1.56/24.86 battery 255 tx/rx: 84/0 kbps 649.847K/13.668K bytes
+INFO    21:09:07:784 136404; [rs] **report stats: seq: 51, report list size 0, tx/rx: 9633/2448, cache size: 0
+INFO    21:09:07:784 136404; [rs] report server1: 218.60.5.85:8913
+INFO    21:09:13:126 135236; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    21:09:13:224 137412; Audio statistics - rec count: record count = 600 signal level: near_in = 105, near_out = 99 encode_in = 73
+INFO    21:09:31:145 135236; Audio statistics - play count: playout count = 601  signal level: far_in = 0
+INFO    21:09:31:234 137412; Audio statistics - rec count: record count = 601 signal level: near_in = 107, near_out = 105 encode_in = 67
+INFO    21:09:34:784 136404; **CALL STATS: duration 1m33s cpu app/total 1.30/27.21 battery 255 tx/rx: 84/0 kbps 952.1008K/17.922K bytes
+INFO    21:09:43:785 136404; [rs] **report stats: seq: 56, report list size 0, tx/rx: 10520/2688, cache size: 0
+INFO    21:09:43:785 136404; [rs] report server1: 218.60.5.85:8913
+INFO    21:09:49:146 135236; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    21:09:49:234 137412; Audio statistics - rec count: record count = 600 signal level: near_in = 109, near_out = 104 encode_in = 67
+Local Date: 12�� 03 2019 Local Time: 21:10:03
+Build info: Nov 11 2019 19:43:50 r
+
+INFO    21:10:03:193 135048; [rp] {"rtc.channel_profile":1}
+INFO    21:10:03:193 135048; [rp] {"rtc.client_role":1}
+INFO    21:10:03:194 135048; set client role to broadcaster
+INFO    21:10:03:194 135048; [rp] {"rtc.video.enabled":false}
+INFO    21:10:03:194 135048; API call to disable video
+INFO    21:10:03:194 135048; [rp] {"che.audio.profile":{"config":0,"scenario":1}}
+INFO    21:10:03:194 135048; Audio Profile is set to: (config = 0, scenario = 1)
+INFO    21:10:03:194 135048; [rp] {"rtc.audio.enabled":true,"che.audio.enable.recording.device":true}
+INFO    21:10:03:194 135048; [rp] {"rtc.video.web_h264_interop_enable":true,"che.video.web_h264_interop_enable":true}
+INFO    21:10:03:194 135048; [rp] {"che.audio.morph.voice_changer":0}
+INFO    21:10:03:194 135048; [rp] {"che.audio.loopback.recording":true}
+INFO    21:10:03:194 135048; doStopLastmileProbeTest
+INFO    21:10:03:194 135048; ***CALL BEGIN: appid:'6a****************************ae' cname:'d961c0bc22e9efe7caa5067cf2a6685d' info:'Electron' sid:'A94DC43D7BD24B0B8D861C89866A44BB'
+INFO    21:10:03:194 135048; addRef of media engine, ref=1
+INFO    21:10:03:195 135048; [che] create chat engine, ctx:00000000
+INFO    21:10:03:195 135048; [MYDEBUG] large group call false
+INFO    21:10:03:195 135048; ChatEngineParameterHelper::applyMediaEngineMode: 
+INFO    21:10:03:195 135048; applyMediaEngineMode(): Hardware encoding false Hardware decoding false
+INFO    21:10:03:195 136612; Thread with name:AudioAsyncTask started 
+INFO    21:10:03:195 135048; engine git commit version:9899c5e51 and branch:(HEAD
+INFO    21:10:03:202 135048; output: kPlatformDefaultAudio
+INFO    21:10:03:203 135048; [WIN_CORE] +++++++Code block begins for checking CoreAudio properties++++++
+INFO    21:10:03:210 135048; AgoraRTC::AudioDeviceNotificationWindows::AudioDeviceNotificationWindows created
+INFO    21:10:03:219 135048; [WIN_CORE] ===================Render Devices Enumeration===================
+INFO    21:10:03:219 135048; [WIN_CORE] #rendering endpoint devices (counting all): 3
+INFO    21:10:03:219 135048; [WIN_CORE] ++Endpoint  0:
+INFO    21:10:03:219 135048; [WIN_CORE] ID string    : {0.0.0.00000000}.{1518cfc6-a68f-46dd-ad30-1874fdda99cb}
+INFO    21:10:03:220 135048; [WIN_CORE] friendly name: "VG2453 Series (英特尔(R) 显示器音频)"
+INFO    21:10:03:220 135048; [WIN_CORE] state (0x1)  : *ACTIVE*
+INFO    21:10:03:220 135048; [WIN_CORE] ++Endpoint  1:
+INFO    21:10:03:220 135048; [WIN_CORE] ID string    : {0.0.0.00000000}.{798f7c70-adea-4e09-934d-4a191726db61}
+INFO    21:10:03:220 135048; [WIN_CORE] friendly name: "扬声器 (Realtek High Definition Audio)"
+INFO    21:10:03:220 135048; [WIN_CORE] state (0x1)  : *ACTIVE*
+INFO    21:10:03:220 135048; [WIN_CORE] ++Endpoint  2:
+INFO    21:10:03:220 135048; [WIN_CORE] ID string    : {0.0.0.00000000}.{f9dce68b-6638-4a42-ba3c-e2b8aaf56d05}
+INFO    21:10:03:221 135048; [WIN_CORE] friendly name: "Realtek Digital Output (Realtek High Definition Audio)"
+INFO    21:10:03:221 135048; [WIN_CORE] state (0x1)  : *ACTIVE*
+INFO    21:10:03:221 135048; [WIN_CORE] =========================EnumDeviceEnd==========================
+INFO    21:10:03:223 135048; [WIN_CORE] ==================Capture Devices Enumeration===================
+INFO    21:10:03:223 135048; [WIN_CORE] #capturing endpoint devices (counting all): 3
+INFO    21:10:03:223 135048; [WIN_CORE] ++Endpoint  0:
+INFO    21:10:03:223 135048; [WIN_CORE] ID string    : {0.0.1.00000000}.{033bd0fb-2dba-42fd-94fc-4cdc10f6c1d2}
+INFO    21:10:03:223 135048; [WIN_CORE] friendly name: "线路输入 (Realtek High Definition Audio)"
+INFO    21:10:03:224 135048; [WIN_CORE] state (0x8)  : UNPLUGGED
+INFO    21:10:03:224 135048; [WIN_CORE] ++Endpoint  1:
+INFO    21:10:03:224 135048; [WIN_CORE] ID string    : {0.0.1.00000000}.{3eee6b8c-4f00-438a-96e5-4db32dce00f7}
+INFO    21:10:03:224 135048; [WIN_CORE] friendly name: "立体声混音 (Realtek High Definition Audio)"
+INFO    21:10:03:224 135048; [WIN_CORE] state (0x2)  : DISABLED
+INFO    21:10:03:224 135048; [WIN_CORE] ++Endpoint  2:
+INFO    21:10:03:224 135048; [WIN_CORE] ID string    : {0.0.1.00000000}.{61f26d7b-6f33-4fa9-8e2c-ad56bd03d5a8}
+INFO    21:10:03:224 135048; [WIN_CORE] friendly name: "麦克风 (Realtek High Definition Audio)"
+INFO    21:10:03:224 135048; [WIN_CORE] state (0x1)  : *ACTIVE*
+INFO    21:10:03:224 135048; [WIN_CORE] =========================EnumDeviceEnd==========================
+INFO    21:10:03:228 135048; [WIN_CORE] *** Windows Core Audio is supported ***
+INFO    21:10:03:228 135048; [WIN_CORE] ++++++++Code block ends for checking CoreAudio properties++++++++
+INFO    21:10:03:228 135048; audio jitterbuffer new smooth
+INFO    21:10:03:228 135048;   OS info: Microsoft  (build 17134), 64-bit
+INFO    21:10:03:232 135048; [WIN_CORE] Set playout device on Windows by Windows Device Type (-2): friendly name: "扬声器 (Realtek High Definition Audio)"
+INFO    21:10:03:252 135048; [WIN_CORE] Set recording device on Windows by Windows Device Type (-2): friendly name: "麦克风 (Realtek High Definition Audio)"
+INFO    21:10:03:256 135048; StereoPlayoutIsAvailable(), output: available=1
+INFO    21:10:03:256 135048; StereoRecordingIsAvailable(), output: available=1
+INFO    21:10:03:256 135048; RegisterReceiveCodec 13.
+INFO    21:10:03:256 135048; RegisterReceiveCodec 98.
+INFO    21:10:03:256 135048; RegisterReceiveCodec 99.
+INFO    21:10:03:256 135048; RegisterReceiveCodec 100.
+INFO    21:10:03:256 135048; RegisterReceiveCodec 127.
+INFO    21:10:03:256 131672; Thread with name:EngineMonitorThread started 
+INFO    21:10:03:256 135048; RegisterVolumeNotify
+INFO    21:10:03:256 135048; setMuteStatus, muted: Off
+INFO    21:10:03:256 135048; setMuteOutput, muted: false
+INFO    21:10:03:256 135048; Audio Engine Init success
+INFO    21:10:03:256 135048; [che] chat engine initialized
+INFO    21:10:03:256 135048; [time] process EngineInitialize takes 62
+INFO    21:10:03:256 135048; [tactics] version:2.8.2.121 maxBitrate:400 640X360 15 fps needHandle:1
+INFO    21:10:03:257 135048; [tactics] config json version:20150101-0000 duallinkd:true poor:u
+INFO    21:10:03:257 135048; [tactics] parse config for beckon error for tactics size:15
+INFO    21:10:03:267 135048; [vocs] vocs initialized
+ERROR   21:10:03:270 135048; [cm] session 'E3DDC1F3201C452297864A3C4A251FF6' was not terminated properly
+INFO    21:10:03:271 135048; CacheManager: save cache to storage elapsed 1
+INFO    21:10:03:271 135048; [cm] emit join channel signal, size=4
+INFO    21:10:03:271 135048; [cm] connection state changed from 1 to 2
+INFO    21:10:03:271 135048; [tactics] version:2.8.2.121 maxBitrate:400 640X360 15 fps needHandle:1
+INFO    21:10:03:271 135048; [vocs] lookup channel...
+INFO    21:10:03:272 135048; [vocs] selected: 52.194.158.59:8000
+INFO    21:10:03:273 135048; connecting to 52.194.158.59:8000 handle c899b8, 2448
+INFO    21:10:03:273 135048; [vocs] report bitrate: a/v/t: 50/400/450
+INFO    21:10:03:273 135048; [vocs] creating channel with 52.194.158.59:8000, ts 1575378603273.......
+INFO    21:10:03:273 135048; [vocs] selected: 106.14.12.130:1080
+INFO    21:10:03:273 135048; [vocs] report bitrate: a/v/t: 50/400/450
+INFO    21:10:03:273 135048; [vocs] creating channel with 106.14.12.130:1080, ts 1575378603273.......
+INFO    21:10:03:273 135048; [vocs] selected: 47.244.4.122:25000
+INFO    21:10:03:273 135048; [vocs] report bitrate: a/v/t: 50/400/450
+INFO    21:10:03:273 135048; [vocs] creating channel with 47.244.4.122:25000, ts 1575378603273.......
+INFO    21:10:03:273 135048; [ap/u] **responsed from 54.223.118.211:1080, TDS(64).
+INFO    21:10:03:273 135048; [ap] onAPTdsRes success with config: {}, size: 0
+INFO    21:10:03:273 135048; [rlbs/u] responsed from 52.80.192.229:9700 with servers 61.240.222.7:8913
+INFO    21:10:03:273 135048; [rs] updateServers 61.240.222.7:8913, priority 3
+INFO    21:10:03:273 135048; [rs] updateServers 61.54.25.56:8913, priority 3
+INFO    21:10:03:273 135048; [rs] updateServers 61.240.3.168:8913, priority 3
+INFO    21:10:03:273 135048; [rs] dns parse result code: 11003, servers size: 0
+INFO    21:10:03:273 135048; [ap] onParsedDns with err 11003, 
+INFO    21:10:03:273 135048; [ap/u] **responsed from 47.244.4.122:8000, TDS(64).
+INFO    21:10:03:318 135048; [vocs/u] **responsed from 106.14.12.130:1080, 3 vos, elapsed 188, server ts 1575378602823, wan ip 58.19.1.66
+INFO    21:10:03:319 135048; [vos] added server: 61.54.25.51:4005
+INFO    21:10:03:319 135048; [vos] added server: 125.45.14.20:4001
+INFO    21:10:03:319 135048; [vos] added server: 211.91.242.32:4006
+INFO    21:10:03:319 135048; [ch0] vos initialized
+INFO    21:10:03:319 135048; [vos] selected: 211.91.242.32:4006
+ERROR   21:10:03:319 135048; [ch0] login strategy=2
+INFO    21:10:03:320 135048; [ds]: ver 1 ds '{"streamType":1,"clientRole":1}'
+INFO    21:10:03:320 135048; [ch0] Login VOS (proto:12, cid:3586057738, uid:100546, ts:1575378603320, ticket size:124 detail size: 321 ds:1 stream:+A-V) 2: 211.91.242.32:4006
+INFO    21:10:03:340 135048; [vocs/u] **responsed from 47.244.4.122:25000, 3 vos, elapsed 210, server ts 1575378602851, wan ip 58.19.1.66
+INFO    21:10:03:340 135048; [vos] added server: 61.54.25.51:4012
+INFO    21:10:03:340 135048; [vos] added server: 125.45.14.18:4001
+INFO    21:10:03:379 135048; [ch0] **VOS response to login request (res 0 elapsed 249, server ts 1575378602851, s-c:-528) from 211.91.242.32:4006, and current dest server 211.91.242.32:4006
+INFO    21:10:03:379 135048; updateActiveVosList: ["211.91.242.32:4006"]
+INFO    21:10:03:379 135048; [cm] connection state changed from 2 to 3
+INFO    21:10:03:379 135048; [che] start call begins
+INFO    21:10:03:379 135048; Update settings: mode 3, rec_source -10, rec_fs 16000, builtin aec 0
+INFO    21:10:03:379 135048; Set Application Mode in RTC Engine to No. 4 UC 0
+INFO    21:10:03:380 135048; SetCodec by type : No. 77
+INFO    21:10:03:380 135048; [che] start call returns 0, elapsed 1
+INFO    21:10:03:380 135048; [time] process EngineStartCall takes 1
+INFO    21:10:03:380 135048; setNetEQMinimumPlayoutDelay delay(0)
+INFO    21:10:03:380 135048; join channel success: cname 'd961c0bc22e9efe7caa5067cf2a6685d' uid 100546 elapsed 250
+INFO    21:10:03:381 135048; CacheManager: save cache to storage elapsed 1
+INFO    21:10:03:383 136612; [WIN_CORE] Audio Engine's current mix format for loopback shared-mode streams:
+INFO    21:10:03:383 136612; [WIN_CORE] wFormatTag     : 0xFFFE (65534)
+INFO    21:10:03:383 136612; [WIN_CORE] nChannels      : 2
+INFO    21:10:03:383 136612; [WIN_CORE] nSamplesPerSec : 48000
+INFO    21:10:03:383 136612; [WIN_CORE] wBitsPerSample : 32
+INFO    21:10:03:389 135048; [ch0] rtt: 8
+INFO    21:10:03:392 136612; [WIN_CORE] IsFormatSupported : nChannels=2, nSamplesPerSec=48000 is supported
+INFO    21:10:03:392 136612; [WIN_CORE] VoE selected this loopback format:
+INFO    21:10:03:392 136612; [WIN_CORE] wFormatTag        : 0x1 (1)
+INFO    21:10:03:392 136612; [WIN_CORE] nChannels         : 2
+INFO    21:10:03:392 136612; [WIN_CORE] nSamplesPerSec    : 48000
+INFO    21:10:03:392 136612; [WIN_CORE] wBitsPerSample    : 16
+INFO    21:10:03:400 136612; [WIN_CORE] loopback Initialize time 0  hr 0
+INFO    21:10:03:400 136612; [WIN_CORE] IAudioClient::GetBufferSize() => 1056 (<=> 4224 bytes)
+INFO    21:10:03:400 136612; [WIN_CORE] loopback capture side is now initialized
+WARN    21:10:03:401 135620; [WIN_CORE] Loopback failed to boost rec-thread using MMCSS
+INFO    21:10:03:401 135620; [WIN_CORE] loopback [CAPT] size of buffer       : 1056
+INFO    21:10:03:401 135620; [WIN_CORE] loopback [CAPT] size of sync buffer  : 8448 [bytes]
+INFO    21:10:03:404 136612; [WIN_CORE] loopback audio stream has now started...
+INFO    21:10:03:404 136612; setLoopbackRecording, enabled: true, delay 180, aec 1 
+INFO    21:10:03:416 136612; [WIN_CORE] Audio Engine's current mix format for rendering shared-mode streams:
+INFO    21:10:03:416 136612; [WIN_CORE] wFormatTag     : 0xFFFE (65534)
+INFO    21:10:03:416 136612; [WIN_CORE] nChannels      : 2
+INFO    21:10:03:416 136612; [WIN_CORE] nSamplesPerSec : 48000
+INFO    21:10:03:416 136612; [WIN_CORE] wBitsPerSample : 32
+INFO    21:10:03:422 136612; [WIN_CORE] IsFormatSupported : nChannels=2, nSamplesPerSec=48000 is supported
+INFO    21:10:03:422 136612; [WIN_CORE] VoE selected this rendering format:
+INFO    21:10:03:422 136612; [WIN_CORE] wFormatTag         : 0x1 (1)
+INFO    21:10:03:422 136612; [WIN_CORE] nChannels          : 2
+INFO    21:10:03:422 136612; [WIN_CORE] nSamplesPerSec     : 48000
+INFO    21:10:03:422 136612; [WIN_CORE] wBitsPerSample     : 16
+INFO    21:10:03:435 135048; [vocs/u] **responsed from 52.194.158.59:8000, 3 vos, elapsed 305, server ts 1575378602868, wan ip 58.19.1.66
+INFO    21:10:03:435 135048; [vos] added server: 125.45.14.21:4002
+INFO    21:10:03:435 135048; [vos] added server: 125.45.14.7:4005
+INFO    21:10:03:440 136612; [WIN_CORE] render Initialize time 0  hr 0
+INFO    21:10:03:440 136612; [WIN_CORE] IAudioClient::GetBufferSize() => 1056 (<=> 4224 bytes)
+INFO    21:10:03:440 136612; [WIN_CORE] render side is now initialized
+INFO    21:10:03:441 133340; [WIN_CORE] render thread is now registered with MMCSS (taskIndex=1382)
+INFO    21:10:03:441 133340; [WIN_CORE] [REND] size of buffer       : 1056
+INFO    21:10:03:441 133340; [WIN_CORE] [REND] max stream latency   : 0 (0.00 ms)
+INFO    21:10:03:441 133340; [WIN_CORE] [REND] device period        : 100000 (10.00 ms)
+INFO    21:10:03:441 133340; [WIN_CORE] [REND] initial delay        : 30
+INFO    21:10:03:441 133340; [WIN_CORE] [REND] endpointBufferSizeMS : 22.00
+INFO    21:10:03:441 136612; [WIN_CORE] rendering audio stream has now started...
+INFO    21:10:03:443 135048; [ap/u] **responsed from 50.17.126.121:25000, TDS(64).
+INFO    21:10:03:443 136612; output: enabled=0
+INFO    21:10:03:443 136612; output: volume=61
+INFO    21:10:03:443 136612; => OnWindowsCurrentDeviceChange() : kPlayoutDevice attributes 0
+INFO    21:10:03:443 136612; StartPlayout complete
+INFO    21:10:03:443 136612; StartSend
+INFO    21:10:03:447 136612; [WIN_CORE] Audio Engine's current mix format for capturing shared-mode streams:
+INFO    21:10:03:447 136612; [WIN_CORE] wFormatTag     : 0xFFFE (65534)
+INFO    21:10:03:447 136612; [WIN_CORE] nChannels      : 2
+INFO    21:10:03:447 136612; [WIN_CORE] nSamplesPerSec : 48000
+INFO    21:10:03:447 136612; [WIN_CORE] wBitsPerSample : 32
+INFO    21:10:03:447 136612; [WIN_CORE] IsFormatSupported : nChannels=2, nSamplesPerSec=48000 is supported
+INFO    21:10:03:447 136612; [WIN_CORE] VoE selected this capturing format:
+INFO    21:10:03:447 136612; [WIN_CORE] wFormatTag        : 0x1 (1)
+INFO    21:10:03:447 136612; [WIN_CORE] nChannels         : 2
+INFO    21:10:03:447 136612; [WIN_CORE] nSamplesPerSec    : 48000
+INFO    21:10:03:447 136612; [WIN_CORE] wBitsPerSample    : 16
+INFO    21:10:03:543 136612; [WIN_CORE] capture Initialize time 0  hr 0
+INFO    21:10:03:543 136612; [WIN_CORE] IAudioClient::GetBufferSize() => 1056 (<=> 4224 bytes)
+INFO    21:10:03:543 136612; [WIN_CORE] capture side is now initialized
+INFO    21:10:03:543 137876; [WIN_CORE] [CAPT] size of buffer       : 1056
+INFO    21:10:03:543 137876; [WIN_CORE] [CAPT] size of sync buffer  : 8448 [bytes]
+INFO    21:10:03:543 137876; [WIN_CORE] [CAPT] max stream latency   : 0 (0.00 ms)
+INFO    21:10:03:544 137876; [WIN_CORE] [CAPT] device period        : 100000 (10.00 ms)
+INFO    21:10:03:544 137876; [WIN_CORE] [CAPT] extraDelayMS         : 10.00
+INFO    21:10:03:544 137876; [WIN_CORE] [CAPT] endpointBufferSizeMS : 22.00
+INFO    21:10:03:544 136612; [WIN_CORE] capture audio stream has now started...
+INFO    21:10:03:545 136612; output: enabled=0
+INFO    21:10:03:546 136612; => OnWindowsCurrentDeviceChange() : kRecordingDevice micBoost 503319050 max: 30.0 min:  0.0 step: 10.0 level: 10.0 volume:240
+INFO    21:10:03:546 136612; StartRecording complete
+INFO    21:10:03:546 136612; Application Config module:  Route 0, NS on, AEC on, AGC on, BSS off, HC off
+INFO    21:10:03:546 136612; MID = 0, Routing = 0
+INFO    21:10:03:546 136612; output: kWindowsCoreAudio
+INFO    21:10:03:546 136612;   Output: audioLayer=2
+INFO    21:10:03:546 136612; output: volume=255
+INFO    21:10:03:546 136612; output: enabled=0
+INFO    21:10:03:547 136612; output: enabled=0
+INFO    21:10:03:547 136612; output: enabled=0
+INFO    21:10:03:575 135048; TRACER: onFirstLocalAudioFrame codec 77 elapsed 446
+INFO    21:10:08:118 135048; [rs] **report stats: seq: 35, report list size 0, tx/rx: 6073/1680, cache size: 0
+INFO    21:10:08:118 135048; [rs] report server1: 61.240.222.7:8913
+INFO    21:10:09:455 133340; Audio statistics - play count: playout count = 201  signal level: far_in = 0
+INFO    21:10:09:579 137876; Audio statistics - rec count: record count = 201 signal level: near_in = 108, near_out = 102 encode_in = 65
+INFO    21:10:18:123 135048; [rs] dns parse retry time: 1
+INFO    21:10:18:128 135048; [ap] dns parse retry time: 1
+INFO    21:10:18:128 135048; [rs] dns parse result code: 11003, servers size: 0
+INFO    21:10:18:131 135048; [ap] onParsedDns with err 11003, 
+INFO    21:10:23:456 133340; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    21:10:23:591 137876; Audio statistics - rec count: record count = 600 signal level: near_in = 109, near_out = 106 encode_in = 64
+INFO    21:10:33:146 135048; [rs] dns parse retry time: 2
+INFO    21:10:33:164 135048; [ap] dns parse retry time: 2
+INFO    21:10:33:164 135048; [rs] dns parse result code: 11003, servers size: 0
+INFO    21:10:33:171 135048; [ap] onParsedDns with err 11003, 
+INFO    21:10:37:118 135048; **CALL STATS: duration 31s cpu app/total 2.82/66.2 battery 255 tx/rx: 84/1 kbps 326.203K/9.121K bytes
+INFO    21:10:38:120 135048; [rs] **report stats: seq: 45, report list size 0, tx/rx: 8086/2160, cache size: 0
+INFO    21:10:38:120 135048; [rs] report server1: 61.240.222.7:8913
+INFO    21:10:41:457 133340; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    21:10:41:596 137876; Audio statistics - rec count: record count = 600 signal level: near_in = 108, near_out = 101 encode_in = 66

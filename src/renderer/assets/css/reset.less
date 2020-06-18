@@ -1,0 +1,154 @@
+// @import './iconfont.less';
+html,
+body {
+  width: 100%;
+  height: 100%;
+  // min-width: 1200px;
+  font: 12px Microsoft YaHei, Hiragino Sans GB, arial, simsun, sans-serif;
+  -webkit-font-smoothing: antialiased; //苹果电脑字体优化，面向MacOSS
+  -webkit-text-size-adjust: 100%; //防止IOS系统方向改变(特别是手持设备)后字体大小的调整，不禁用用户缩放。
+  -ms-text-size-adjust: 100%;
+  // background-color: #222;
+}
+:focus {
+  outline: 0;
+}
+
+/**
+    H5新标签默认处理/
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  display: block;
+}
+
+//  浏览器默认标签重置
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+li {
+  list-style: none;
+  line-height: normal;
+}
+
+caption,
+th {
+  text-align: left;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+img {
+  border: none;
+  vertical-align: middle;
+  max-width: none;
+}
+
+input[type='checkbox'] {
+  vertical-align: sub;
+}
+
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  *font-size: 100%; /*to enable resizing for IE*/
+}
+[v-cloak] {
+  display: none !important;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+}
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+//去除搜狗浏览器软键盘
+#sogou_secure_inputs_container {
+  display: none;
+}
+input::-webkit-input-safebox-button {
+  display: none;
+}
+
+/* 自定义浏览器滚动条 */
+::-webkit-scrollbar-track-piece {
+  width: 4px;
+  background-color: hsla(220, 4%, 58%, 0.15);
+}
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-thumb {
+  height: 50px;
+  background-color: hsla(220, 4%, 58%, 0.3);
+  cursor: pointer;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: hsla(220, 4%, 58%, 0.6);
+  cursor: pointer;
+}
+// 足迹pop
+.footprint-popover {
+  padding-left: 0;
+  padding-right: 0;
+}
+/* 自定义浏览器滚动条 */

@@ -1,0 +1,98 @@
+{
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // "editor.fontFamily": "Hack, 'Courier New', monospace",
+  // "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "editor.rulers": [
+    80
+  ],
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "emmet.includeLanguages": {
+    "vue": "html",
+    "vue-html": "html"
+  },
+  "emmet.showExpandedAbbreviation": "inMarkupAndStylesheetFilesOnly",
+  "emmet.triggerExpansionOnTab": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.options": {
+    "extensions": [
+      ".js",
+      ".vue"
+    ]
+  },
+  "eslint.validate": [
+    "javascript",
+    {
+      "autoFix": true,
+      "language": "vue"
+    },
+    "javascriptreact",
+    "html",
+    "vue"
+  ],
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "extensions.ignoreRecommendations": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "javascript.implicitProjectConfig.experimentalDecorators": true,
+  "search.showLineNumbers": true,
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "vetur.format.defaultFormatter.html": "prettyhtml",
+  "vetur.format.defaultFormatter.js": "prettier",
+  "vetur.format.defaultFormatterOptions": {
+    "prettier": {
+      "semi": false,
+      "singleQuote": true,
+      "trailingComma": true
+    },
+    "prettyhtml": {
+      "printWidth": 100,
+      "singleQuote": false,
+      "wrapAttributes": false,
+      "sortAttributes": true
+    }
+  },
+  "window.zoomLevel": 0,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[less]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.ignorePath": ".prettierignore",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "vetur.format.defaultFormatter.stylus": "stylus-supremacy",
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  // "workbench.iconTheme": "material-icon-theme",
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 120,
+  "workbench.statusBar.visible": false,
+  // "editor.fontSize": 14,
+  //  
+  // ---------------------------------------------------------------------------
+  //设置的字体类型为 Fira Code
+  "editor.fontFamily": "Fira Code",
+  //这个设置字体粗细，可选normal,bold,"100"~"900"等，选择合适的就行
+  "editor.fontWeight": "500",
+  "editor.fontSize": 14,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Material Theme Palenight High Contrast",
+  "terminal.integrated.fontSize": 14,
+  // ---------------------------------------------------------------------------
+}

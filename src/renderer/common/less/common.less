@@ -1,0 +1,100 @@
+// 主色
+@nn-blue: #409eff;
+
+// 场景辅助色
+
+// 浅灰-背景
+@nn-light-gray: #eee;
+// 红色-危险
+@nn-red: #f56c6c;
+// 绿色-成功
+@nn-green: #67c23a;
+// 灰色-信息
+@nn-gray: #909399;
+// 黄色-警告
+@nn-yellow: #e6a23c;
+
+// 中性色
+
+// 基础黑色
+@nn-base-black: #000000;
+// 基础白色
+@nn-base-white: #ffffff;
+
+// 主要文字
+@nn-text-main: #303133;
+// 常规文字
+@nn-text-ord: #606266;
+// 次要文字
+@nn-text-sub: #909399;
+// 占位文字
+@nn-text-pla: #c0c4cc;
+
+// 边框-1级
+@nn-border-1: #dcdfe6;
+// 边框-2级
+@nn-border-2: #e4e7ed;
+// 边框-3级
+@nn-border-3: #ebeef5;
+
+// 圆角-小
+@nn-border-r-mini: 5px;
+// 圆角-中
+@nn-border-r-mid: 10px;
+// 圆角-大
+@nn-border-r-big: 20px;
+// 圆角-全
+@nn-border-r-full: 50%;
+
+// 字号-默认
+@nn-fz-base: 12px;
+// 字号-小
+@nn-fz-small: 14px;
+// 字号-中
+@nn-fz-mid: 16px;
+// 字号-大
+@nn-fz-big: 20px;
+
+// 字重-默认
+@nn-fw: 200;
+@nn-fw-bold: bold;
+
+// 字体
+@nn-ff: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
+
+// padding
+// 紧凑
+@nn-pad-1: 5px;
+// 常规
+@nn-pad-1: 10px;
+// 宽松
+@nn-pad-1: 20px;
+
+// margin
+// 紧凑
+@nn-mar-1: 10px;
+// 常规
+@nn-mar-1: 20px;
+// 宽松
+@nn-mar-1: 40px;
+
+// -----------------------------------------------------------------------------
+// 以下为示例例代码 请根据各自页面情况自行组合使用
+// 选择器变量
+@container: .chat-window-container;
+// 属性变量
+@bgc: background-color;
+@bdr: border-radius;
+// 属性值变量
+@nn-border: 1px solid #ccc;
+@nn-bdr: 5px;
+// url变量
+@avatar: '../a.jpg';
+// 声明变量
+@bg-gray: {
+  @{bgc}: @bg-light-gray;
+  border: @nn-border;
+  @{bdr}: @nn-bdr;
+};
+// -----------------------------------------------------------------------------
